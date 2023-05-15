@@ -23,12 +23,12 @@ class CategorisedSpeechGroup:
             self.analysis_results = pd.concat(
                 [self.analysis_results, analysis_dataframe])
 
-    def get_results_grouped_by_party(self):
+    def get_results_grouped_by_faction(self):
         if self.analysis_results is None:
             raise ValueError("Must analyse speeches before getting results")
 
-        results_df_grouped = self.analysis_results[["main_speaker_party", "total_duration", "duration_positive",
-                                                    "duration_neutral", "duration_negative"]].groupby(["main_speaker_party"]).sum()
+        results_df_grouped = self.analysis_results[["main_speaker_faction", "total_duration", "duration_positive",
+                                                    "duration_neutral", "duration_negative"]].groupby(["main_speaker_faction"]).sum()
 
         results_df_grouped["percentage_positive"] = results_df_grouped["duration_positive"] / \
             results_df_grouped["total_duration"]
@@ -45,10 +45,10 @@ class CategorisedSpeechGroup:
 
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
-        grouped_by_party = self.get_results_grouped_by_party()
+        grouped_by_party = self.get_results_grouped_by_faction()
         grouped_by_party["category"] = self.category_label
         grouped_by_party.to_csv(
-            "results/" + self.category_label + "_grouped_by_party"+timestamp+".csv")
+            "results/" + self.category_label + "_grouped_by_faction"+timestamp+".csv")
 
     def __analyse_speech(self, speech: Speech, sentiment_model):
         speech.analyse_sentiment(sentiment_model)
@@ -73,15 +73,20 @@ class CategorisedSpeechGroup:
 
         metadata = speech.get_speech_metadata()
 
-        analysis_results = {
-            "total_duration": total_duration,
-            "duration_positive": duration_positive,
-            "duration_neutral": duration_neutral,
-            "duration_negative": duration_negative,
-            "agenda_item_title": metadata["agenda_item_title"],
-            "main_speaker": metadata["main_speaker"],
-            "main_speaker_party": metadata["main_speaker_party"],
-        }
+        try:
+            analysis_results = {
+                "total_duration": total_duration,
+                "duration_positive": duration_positive,
+                "duration_neutral": duration_neutral,
+                "duration_negative": duration_negative,
+                "agenda_item_title": metadata["agenda_item_title"],
+                "main_speaker": metadata["main_speaker"],
+                "main_speaker_party": metadata["main_speaker_party"],
+                "main_speaker_faction": metadata["main_speaker_faction"]
+            }
+        except:
+            print(metadata)
+            raise ValueError("Invalid metadata")
 
         if total_duration != 0:
             analysis_results["percentage_positive"] = duration_positive / \

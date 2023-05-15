@@ -60,11 +60,23 @@ class Speech:
         # Find the person data using the speech_metadata["main_speaker"]
         if speech_metadata["main_speaker"] == "unknown":
             speech_metadata["main_speaker_party"] = "unknown"
+            speech_metadata["main_speaker_faction"] = "unknown"
         else:
             for person in self.speech_raw_json["data"]["relationships"]["people"]["data"]:
                 if person["attributes"]["label"] == speech_metadata["main_speaker"]:
                     speech_metadata["main_speaker_party"] = person["attributes"]["party"]["label"]
+                    speech_metadata["main_speaker_faction"] = person["attributes"]["faction"]["label"]
                     break
+                elif speech_metadata["main_speaker"] in person["attributes"]["labelAlternative"]:
+                    speech_metadata["main_speaker_party"] = person["attributes"]["party"]["label"]
+                    speech_metadata["main_speaker_faction"] = person["attributes"]["faction"]["label"]
+                    break
+
+        if "main_speaker_party" not in speech_metadata:
+            speech_metadata["main_speaker_party"] = "unknown"
+
+        if "main_speaker_faction" not in speech_metadata:
+            speech_metadata["main_speaker_faction"] = "unknown"
 
         return speech_metadata
 
