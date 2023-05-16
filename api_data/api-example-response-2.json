@@ -1,0 +1,2642 @@
+{
+    "meta": {
+        "api": {
+            "version": 1,
+            "documentation": "https://de.openparliament.tv/api",
+            "license": {
+                "label": "ODC Open Database License (ODbL) v1.0",
+                "link": "https://opendatacommons.org/licenses/odbl/1-0/"
+            }
+        },
+        "requestStatus": "success"
+    },
+    "data": {
+        "type": "media",
+        "id": "DE-0200028012",
+        "attributes": {
+            "originID": null,
+            "originMediaID": "7535143",
+            "creator": "Deutscher Bundestag",
+            "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
+            "parliament": "DE",
+            "parliamentLabel": "Deutscher Bundestag",
+            "order": 0,
+            "aligned": true,
+            "timestamp": 1649318025,
+            "dateStart": "2022-04-07T07:53:45",
+            "dateEnd": "2022-04-07T07:57:33",
+            "duration": 228,
+            "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7535143/7535143_h264_720_400_2000kb_baseline_de_2192.mp4",
+            "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7535143/7535143_mp3_128kb_stereo_de_128.mp3",
+            "sourcePage": "http://dbtg.tv/fvid/7535143",
+            "thumbnailURI": null,
+            "thumbnailCreator": null,
+            "thumbnailLicense": null,
+            "additionalInformation": null,
+            "lastChanged": "2022-05-10 18:28:07",
+            "textContents": [
+                {
+                    "id": "24900",
+                    "type": "proceedings",
+                    "textBody": [
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Martin Sichert",
+                            "speakerstatus": "main-speaker",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"1.000\" data-end=\"11.960\">Frau Präsidentin! </span><span class=\"timebased\" data-start=\"11.960\" data-end=\"13.400\">Meine Damen und Herren! </span><span class=\"timebased\" data-start=\"13.400\" data-end=\"21.840\">Ein echter Demokrat macht nach der Wahl, was er vor der Wahl versprochen hat. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Frau Präsidentin!",
+                                    "timeStart": "1.000",
+                                    "timeEnd": "11.960"
+                                },
+                                {
+                                    "text": "Meine Damen und Herren!",
+                                    "timeStart": "11.960",
+                                    "timeEnd": "13.400"
+                                },
+                                {
+                                    "text": "Ein echter Demokrat macht nach der Wahl, was er vor der Wahl versprochen hat.",
+                                    "timeStart": "13.400",
+                                    "timeEnd": "21.840"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"13.400\" data-end=\"26.520\">(Beifall bei der AfD) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der AfD)",
+                                    "timeStart": "13.400",
+                                    "timeEnd": "26.520"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Martin Sichert",
+                            "speakerstatus": "main-speaker",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"21.840\" data-end=\"26.520\">Heute ist der Tag, an dem die Bürger sehen, welche Abgeordneten Demokraten sind. </span><span class=\"timebased\" data-start=\"26.520\" data-end=\"34.720\">Vor der Bundestagswahl hat jede der im Bundestag vertretenen Parteien den Wählern versprochen, dass es keine Impfpflicht geben wird. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Heute ist der Tag, an dem die Bürger sehen, welche Abgeordneten Demokraten sind.",
+                                    "timeStart": "21.840",
+                                    "timeEnd": "26.520"
+                                },
+                                {
+                                    "text": "Vor der Bundestagswahl hat jede der im Bundestag vertretenen Parteien den Wählern versprochen, dass es keine Impfpflicht geben wird.",
+                                    "timeStart": "26.520",
+                                    "timeEnd": "34.720"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"26.520\" data-end=\"41.480\">(Beifall bei der AfD) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der AfD)",
+                                    "timeStart": "26.520",
+                                    "timeEnd": "41.480"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Martin Sichert",
+                            "speakerstatus": "main-speaker",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"34.720\" data-end=\"41.480\">Jede einzelne hier vertretene Partei hat dieses Versprechen im Wahlkampf gegeben. </span><span class=\"timebased\" data-start=\"41.480\" data-end=\"46.000\">Für uns von der AfD ist die Demokratie Grundlage unseres Handelns. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Jede einzelne hier vertretene Partei hat dieses Versprechen im Wahlkampf gegeben.",
+                                    "timeStart": "34.720",
+                                    "timeEnd": "41.480"
+                                },
+                                {
+                                    "text": "Für uns von der AfD ist die Demokratie Grundlage unseres Handelns.",
+                                    "timeStart": "41.480",
+                                    "timeEnd": "46.000"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"41.480\" data-end=\"63.920\">(Beifall bei der AfD – Lachen bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der AfD – Lachen bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN)",
+                                    "timeStart": "41.480",
+                                    "timeEnd": "63.920"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Martin Sichert",
+                            "speakerstatus": "main-speaker",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"46.000\" data-end=\"63.920\">Als überzeugte Demokraten werden wir nach der Wahl halten, was wir vor der Wahl versprochen haben, indem wir geschlossen gegen eine Impfpflicht stimmen. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Als überzeugte Demokraten werden wir nach der Wahl halten, was wir vor der Wahl versprochen haben, indem wir geschlossen gegen eine Impfpflicht stimmen.",
+                                    "timeStart": "46.000",
+                                    "timeEnd": "63.920"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"46.000\" data-end=\"69.220\">(Beifall bei der AfD) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der AfD)",
+                                    "timeStart": "46.000",
+                                    "timeEnd": "69.220"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Martin Sichert",
+                            "speakerstatus": "main-speaker",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"63.920\" data-end=\"69.220\">Es ist an der Zeit, all die Lügen zu beenden, auf denen die gesamte Coronapolitik fußt. </span><span class=\"timebased\" data-start=\"69.220\" data-end=\"74.520\">Justizminister Buschmann log, als er sagte, dass zum 20. März alle Maßnahmen enden werden. </span><span class=\"timebased\" data-start=\"74.520\" data-end=\"76.320\">Maßnahmen sind noch da. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Es ist an der Zeit, all die Lügen zu beenden, auf denen die gesamte Coronapolitik fußt.",
+                                    "timeStart": "63.920",
+                                    "timeEnd": "69.220"
+                                },
+                                {
+                                    "text": "Justizminister Buschmann log, als er sagte, dass zum 20. März alle Maßnahmen enden werden.",
+                                    "timeStart": "69.220",
+                                    "timeEnd": "74.520"
+                                },
+                                {
+                                    "text": "Maßnahmen sind noch da.",
+                                    "timeStart": "74.520",
+                                    "timeEnd": "76.320"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"74.520\" data-end=\"86.140\">(Beifall bei der AfD) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der AfD)",
+                                    "timeStart": "74.520",
+                                    "timeEnd": "86.140"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Martin Sichert",
+                            "speakerstatus": "main-speaker",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"76.320\" data-end=\"86.140\">Gesundheitsminister Lauterbach log, als er Ende Oktober sagte, dass es keinen Booster für alle brauche, und er drei Wochen später den Booster für alle forderte. </span><span class=\"timebased\" data-start=\"86.140\" data-end=\"97.200\">Einfache Abgeordnete logen, wie Emilia Fester, als sie verkündete, dass sie nicht im Ausland war, obwohl sie Urlaub in Dänemark gemacht hat. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Gesundheitsminister Lauterbach log, als er Ende Oktober sagte, dass es keinen Booster für alle brauche, und er drei Wochen später den Booster für alle forderte.",
+                                    "timeStart": "76.320",
+                                    "timeEnd": "86.140"
+                                },
+                                {
+                                    "text": "Einfache Abgeordnete logen, wie Emilia Fester, als sie verkündete, dass sie nicht im Ausland war, obwohl sie Urlaub in Dänemark gemacht hat.",
+                                    "timeStart": "86.140",
+                                    "timeEnd": "97.200"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"86.140\" data-end=\"102.660\">(Beifall bei der AfD) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der AfD)",
+                                    "timeStart": "86.140",
+                                    "timeEnd": "102.660"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Martin Sichert",
+                            "speakerstatus": "main-speaker",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"97.200\" data-end=\"102.660\">Aber wie kann man es dem Bundestagsküken zum Vorwurf machen, wenn selbst der Bundeskanzler lügt? </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Aber wie kann man es dem Bundestagsküken zum Vorwurf machen, wenn selbst der Bundeskanzler lügt?",
+                                    "timeStart": "97.200",
+                                    "timeEnd": "102.660"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"97.200\" data-end=\"109.920\">(Dr. Rolf Mützenich [SPD] Jetzt reicht’s aber mit dem Vorwurf der Lüge!) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Dr. Rolf Mützenich [SPD] Jetzt reicht’s aber mit dem Vorwurf der Lüge!)",
+                                    "timeStart": "97.200",
+                                    "timeEnd": "109.920"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Martin Sichert",
+                            "speakerstatus": "main-speaker",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"102.660\" data-end=\"109.920\">Olaf Scholz log, als er im Dezember erklärte, dass die Regierung nichts von schweren Nebenwirkungen der Impfung erfahren habe. </span><span class=\"timebased\" data-start=\"109.920\" data-end=\"116.600\">Zu dem Zeitpunkt waren laut Bundesregierung knapp 30 000 Fälle schwerer Nebenwirkungen registriert. </span><span class=\"timebased\" data-start=\"116.600\" data-end=\"119.400\">Das ist immerhin die Bevölkerung einer mittelgroßen Stadt. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Olaf Scholz log, als er im Dezember erklärte, dass die Regierung nichts von schweren Nebenwirkungen der Impfung erfahren habe.",
+                                    "timeStart": "102.660",
+                                    "timeEnd": "109.920"
+                                },
+                                {
+                                    "text": "Zu dem Zeitpunkt waren laut Bundesregierung knapp 30 000 Fälle schwerer Nebenwirkungen registriert.",
+                                    "timeStart": "109.920",
+                                    "timeEnd": "116.600"
+                                },
+                                {
+                                    "text": "Das ist immerhin die Bevölkerung einer mittelgroßen Stadt.",
+                                    "timeStart": "116.600",
+                                    "timeEnd": "119.400"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"116.600\" data-end=\"126.000\">(Beifall bei der AfD) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der AfD)",
+                                    "timeStart": "116.600",
+                                    "timeEnd": "126.000"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Martin Sichert",
+                            "speakerstatus": "main-speaker",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"119.400\" data-end=\"126.000\">Herr Scholz ist nicht da; er ist zu Beginn meiner Rede anscheinend geflüchtet. </span><span class=\"timebased\" data-start=\"126.000\" data-end=\"130.000\">Aber ich denke, er schaut heimlich draußen am Fernseher zu. </span><span class=\"timebased\" data-start=\"130.000\" data-end=\"136.600\">Herr Scholz, Sie haben den Bürgern vor der Bundestagswahl gesagt: Wir brauchen keine Impfpflicht. </span><span class=\"timebased\" data-start=\"136.600\" data-end=\"146.360\">– Wollen Sie wirklich auch dieses Wahlversprechen brechen und als Lügenkanzler in die Geschichte eingehen? </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Herr Scholz ist nicht da; er ist zu Beginn meiner Rede anscheinend geflüchtet.",
+                                    "timeStart": "119.400",
+                                    "timeEnd": "126.000"
+                                },
+                                {
+                                    "text": "Aber ich denke, er schaut heimlich draußen am Fernseher zu.",
+                                    "timeStart": "126.000",
+                                    "timeEnd": "130.000"
+                                },
+                                {
+                                    "text": "Herr Scholz, Sie haben den Bürgern vor der Bundestagswahl gesagt: Wir brauchen keine Impfpflicht.",
+                                    "timeStart": "130.000",
+                                    "timeEnd": "136.600"
+                                },
+                                {
+                                    "text": "– Wollen Sie wirklich auch dieses Wahlversprechen brechen und als Lügenkanzler in die Geschichte eingehen?",
+                                    "timeStart": "136.600",
+                                    "timeEnd": "146.360"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"136.600\" data-end=\"148.560\">(Beifall bei der AfD – Dr. Rolf Mützenich [SPD]: Das ist doch unglaublich mit dem Vorwurf der Lüge! Das muss doch mal gerügt werden!) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der AfD – Dr. Rolf Mützenich [SPD]: Das ist doch unglaublich mit dem Vorwurf der Lüge! Das muss doch mal gerügt werden!)",
+                                    "timeStart": "136.600",
+                                    "timeEnd": "148.560"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Martin Sichert",
+                            "speakerstatus": "main-speaker",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"146.360\" data-end=\"148.560\">Die nächste Lüge kam von Jens Spahn. </span><span class=\"timebased\" data-start=\"148.560\" data-end=\"151.240\">Er sagte nämlich, die Impfung sei ordentlich zugelassen. </span><span class=\"timebased\" data-start=\"151.240\" data-end=\"152.680\">Das ist die Impfung bis heute nicht. </span><span class=\"timebased\" data-start=\"152.680\" data-end=\"160.700\">Es gibt nur eine bedingte Zulassung der EMA, die bis 2024 eine ordentliche Zulassung prüft. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Die nächste Lüge kam von Jens Spahn.",
+                                    "timeStart": "146.360",
+                                    "timeEnd": "148.560"
+                                },
+                                {
+                                    "text": "Er sagte nämlich, die Impfung sei ordentlich zugelassen.",
+                                    "timeStart": "148.560",
+                                    "timeEnd": "151.240"
+                                },
+                                {
+                                    "text": "Das ist die Impfung bis heute nicht.",
+                                    "timeStart": "151.240",
+                                    "timeEnd": "152.680"
+                                },
+                                {
+                                    "text": "Es gibt nur eine bedingte Zulassung der EMA, die bis 2024 eine ordentliche Zulassung prüft.",
+                                    "timeStart": "152.680",
+                                    "timeEnd": "160.700"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"152.680\" data-end=\"168.360\">(Dr. Alice Weidel [AfD]: Zwei Jahre!) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Dr. Alice Weidel [AfD]: Zwei Jahre!)",
+                                    "timeStart": "152.680",
+                                    "timeEnd": "168.360"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Martin Sichert",
+                            "speakerstatus": "main-speaker",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"160.700\" data-end=\"168.360\">Jeder, der ein Medikament nimmt, das nur bedingt zugelassen ist, nimmt an einem medizinischen Experiment teil. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Jeder, der ein Medikament nimmt, das nur bedingt zugelassen ist, nimmt an einem medizinischen Experiment teil.",
+                                    "timeStart": "160.700",
+                                    "timeEnd": "168.360"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"160.700\" data-end=\"173.160\">(Beifall bei der AfD) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der AfD)",
+                                    "timeStart": "160.700",
+                                    "timeEnd": "173.160"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Martin Sichert",
+                            "speakerstatus": "main-speaker",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"168.360\" data-end=\"173.160\">Und ein medizinisches Experiment darf niemals verpflichtend sein. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Und ein medizinisches Experiment darf niemals verpflichtend sein.",
+                                    "timeStart": "168.360",
+                                    "timeEnd": "173.160"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"168.360\" data-end=\"180.600\">(Beifall bei der AfD – Dr. Rolf Mützenich [SPD]: Was ist das denn hier für eine Debatte?) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der AfD – Dr. Rolf Mützenich [SPD]: Was ist das denn hier für eine Debatte?)",
+                                    "timeStart": "168.360",
+                                    "timeEnd": "180.600"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Martin Sichert",
+                            "speakerstatus": "main-speaker",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"173.160\" data-end=\"180.600\">Das besagen nicht nur die Allgemeine Erklärung der Menschenrechte, die europäische Grundrechtecharta und das Grundgesetz; das sollte auch jeder Bundestagsabgeordnete aus der deutschen Geschichte gelernt haben. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Das besagen nicht nur die Allgemeine Erklärung der Menschenrechte, die europäische Grundrechtecharta und das Grundgesetz; das sollte auch jeder Bundestagsabgeordnete aus der deutschen Geschichte gelernt haben.",
+                                    "timeStart": "173.160",
+                                    "timeEnd": "180.600"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"173.160\" data-end=\"182.280\">(Beifall bei der AfD) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der AfD)",
+                                    "timeStart": "173.160",
+                                    "timeEnd": "182.280"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Martin Sichert",
+                            "speakerstatus": "main-speaker",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"180.600\" data-end=\"182.280\">Daher fordere ich Sie alle auf: Schließen Sie sich uns an! </span><span class=\"timebased\" data-start=\"182.280\" data-end=\"184.920\">Zeigen Sie, dass Ihnen die Demokratie was wert ist, und stimmen Sie gegen die Impfpflicht! </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Daher fordere ich Sie alle auf: Schließen Sie sich uns an!",
+                                    "timeStart": "180.600",
+                                    "timeEnd": "182.280"
+                                },
+                                {
+                                    "text": "Zeigen Sie, dass Ihnen die Demokratie was wert ist, und stimmen Sie gegen die Impfpflicht!",
+                                    "timeStart": "182.280",
+                                    "timeEnd": "184.920"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"182.280\" data-end=\"187.960\">(Beifall bei der AfD – Abgeordnete der AfD erheben sich) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der AfD – Abgeordnete der AfD erheben sich)",
+                                    "timeStart": "182.280",
+                                    "timeEnd": "187.960"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Bärbel Bas",
+                            "speakerstatus": "president",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"184.920\" data-end=\"187.960\">Bevor ich den nächsten Redner aufrufe, werde ich Sie, Kollege Sichert, für zwei Dinge rügen; denn es hat zwei persönliche Angriffe gegeben. </span><span class=\"timebased\" data-start=\"187.960\" data-end=\"190.280\">Ich will das hier noch einmal erklären. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Bevor ich den nächsten Redner aufrufe, werde ich Sie, Kollege Sichert, für zwei Dinge rügen; denn es hat zwei persönliche Angriffe gegeben.",
+                                    "timeStart": "184.920",
+                                    "timeEnd": "187.960"
+                                },
+                                {
+                                    "text": "Ich will das hier noch einmal erklären.",
+                                    "timeStart": "187.960",
+                                    "timeEnd": "190.280"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"187.960\" data-end=\"194.640\">(Zurufe von der AfD: Oh!) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Zurufe von der AfD: Oh!)",
+                                    "timeStart": "187.960",
+                                    "timeEnd": "194.640"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Bärbel Bas",
+                            "speakerstatus": "president",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"190.280\" data-end=\"194.640\">Sie haben zum einen die Kollegin Emilia Fester als Bundestagsküken bezeichnet. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Sie haben zum einen die Kollegin Emilia Fester als Bundestagsküken bezeichnet.",
+                                    "timeStart": "190.280",
+                                    "timeEnd": "194.640"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"190.280\" data-end=\"195.440\">(Lachen bei Abgeordneten der AfD) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Lachen bei Abgeordneten der AfD)",
+                                    "timeStart": "190.280",
+                                    "timeEnd": "195.440"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Bärbel Bas",
+                            "speakerstatus": "president",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"194.640\" data-end=\"195.440\">– Sie mögen lachen. </span><span class=\"timebased\" data-start=\"195.440\" data-end=\"197.600\">Das ist aber ein Angriff auf eine Person und eine despektierliche Äußerung. </span><span class=\"timebased\" data-start=\"197.600\" data-end=\"198.440\">Dafür rüge ich Sie hier. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "– Sie mögen lachen.",
+                                    "timeStart": "194.640",
+                                    "timeEnd": "195.440"
+                                },
+                                {
+                                    "text": "Das ist aber ein Angriff auf eine Person und eine despektierliche Äußerung.",
+                                    "timeStart": "195.440",
+                                    "timeEnd": "197.600"
+                                },
+                                {
+                                    "text": "Dafür rüge ich Sie hier.",
+                                    "timeStart": "197.600",
+                                    "timeEnd": "198.440"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"197.600\" data-end=\"200.720\">(Beifall bei der SPD, der CDU/CSU, dem BÜNDNIS 90/DIE GRÜNEN, der FDP und der LINKEN) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der SPD, der CDU/CSU, dem BÜNDNIS 90/DIE GRÜNEN, der FDP und der LINKEN)",
+                                    "timeStart": "197.600",
+                                    "timeEnd": "200.720"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Bärbel Bas",
+                            "speakerstatus": "president",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"198.440\" data-end=\"200.720\">Das Zweite ist: Sie haben den Bundeskanzler in Person als Lügner bezeichnet. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Das Zweite ist: Sie haben den Bundeskanzler in Person als Lügner bezeichnet.",
+                                    "timeStart": "198.440",
+                                    "timeEnd": "200.720"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"198.440\" data-end=\"215.160\">(Beifall bei der AfD – Martin Reichardt [AfD]: Das ist doch so! – Weitere Zurufe von der AfD: Das ist richtig!) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der AfD – Martin Reichardt [AfD]: Das ist doch so! – Weitere Zurufe von der AfD: Das ist richtig!)",
+                                    "timeStart": "198.440",
+                                    "timeEnd": "215.160"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Bärbel Bas",
+                            "speakerstatus": "president",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"200.720\" data-end=\"215.160\">Auch das ist ein Angriff auf die Person. </span><span class=\"timebased\" data-start=\"215.160\" data-end=\"221.780\">Und auch dafür erteile ich Ihnen eine Rüge. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Auch das ist ein Angriff auf die Person.",
+                                    "timeStart": "200.720",
+                                    "timeEnd": "215.160"
+                                },
+                                {
+                                    "text": "Und auch dafür erteile ich Ihnen eine Rüge.",
+                                    "timeStart": "215.160",
+                                    "timeEnd": "221.780"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"215.160\" data-end=\"223.840\">(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN, der FDP und der LINKEN sowie bei Abgeordneten der CDU/CSU – Martin Sichert [AfD]: Wenn er lügt, werde ich hier immer sagen, dass er ein Lügner ist!) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN, der FDP und der LINKEN sowie bei Abgeordneten der CDU/CSU – Martin Sichert [AfD]: Wenn er lügt, werde ich hier immer sagen, dass er ein Lügner ist!)",
+                                    "timeStart": "215.160",
+                                    "timeEnd": "223.840"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Bärbel Bas",
+                            "speakerstatus": "president",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"221.780\" data-end=\"223.840\">– Das diskutiere ich jetzt mit Ihnen nicht. </span><span class=\"timebased\" data-start=\"223.840\" data-end=\"225.720\">– Das ist hiermit noch mal festgehalten. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "– Das diskutiere ich jetzt mit Ihnen nicht.",
+                                    "timeStart": "221.780",
+                                    "timeEnd": "223.840"
+                                },
+                                {
+                                    "text": "– Das ist hiermit noch mal festgehalten.",
+                                    "timeStart": "223.840",
+                                    "timeEnd": "225.720"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "speech",
+                            "speaker": "Bärbel Bas",
+                            "speakerstatus": "president",
+                            "text": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"225.720\" data-end=\"228.000\">Jetzt rufe ich den nächsten Redner auf: für die Gruppe „Baehrens, Janecek und andere“ Dr. Karl Lauterbach. </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "Jetzt rufe ich den nächsten Redner auf: für die Gruppe „Baehrens, Janecek und andere“ Dr. Karl Lauterbach.",
+                                    "timeStart": "225.720",
+                                    "timeEnd": "228.000"
+                                }
+                            ]
+                        },
+                        {
+                            "speech_id": "ID202801000",
+                            "type": "comment",
+                            "speaker": null,
+                            "speakerstatus": null,
+                            "text": "<p data-type=\"comment\"><span class=\"timebased\" data-start=\"225.720\" data-end=\"228.000\">(Beifall bei der SPD und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der FDP) </span></p>",
+                            "sentences": [
+                                {
+                                    "text": "(Beifall bei der SPD und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der FDP)",
+                                    "timeStart": "225.720",
+                                    "timeEnd": "228.000"
+                                }
+                            ]
+                        }
+                    ],
+                    "textHTML": "<p data-type=\"speech\"><span class=\"timebased\" data-start=\"1.000\" data-end=\"11.960\">Frau Präsidentin! </span><span class=\"timebased\" data-start=\"11.960\" data-end=\"13.400\">Meine Damen und Herren! </span><span class=\"timebased\" data-start=\"13.400\" data-end=\"21.840\">Ein echter Demokrat macht nach der Wahl, was er vor der Wahl versprochen hat. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"13.400\" data-end=\"26.520\">(Beifall bei der AfD) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"21.840\" data-end=\"26.520\">Heute ist der Tag, an dem die Bürger sehen, welche Abgeordneten Demokraten sind. </span><span class=\"timebased\" data-start=\"26.520\" data-end=\"34.720\">Vor der Bundestagswahl hat jede der im Bundestag vertretenen Parteien den Wählern versprochen, dass es keine Impfpflicht geben wird. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"26.520\" data-end=\"41.480\">(Beifall bei der AfD) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"34.720\" data-end=\"41.480\">Jede einzelne hier vertretene Partei hat dieses Versprechen im Wahlkampf gegeben. </span><span class=\"timebased\" data-start=\"41.480\" data-end=\"46.000\">Für uns von der AfD ist die Demokratie Grundlage unseres Handelns. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"41.480\" data-end=\"63.920\">(Beifall bei der AfD – Lachen bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"46.000\" data-end=\"63.920\">Als überzeugte Demokraten werden wir nach der Wahl halten, was wir vor der Wahl versprochen haben, indem wir geschlossen gegen eine Impfpflicht stimmen. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"46.000\" data-end=\"69.220\">(Beifall bei der AfD) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"63.920\" data-end=\"69.220\">Es ist an der Zeit, all die Lügen zu beenden, auf denen die gesamte Coronapolitik fußt. </span><span class=\"timebased\" data-start=\"69.220\" data-end=\"74.520\">Justizminister Buschmann log, als er sagte, dass zum 20. März alle Maßnahmen enden werden. </span><span class=\"timebased\" data-start=\"74.520\" data-end=\"76.320\">Maßnahmen sind noch da. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"74.520\" data-end=\"86.140\">(Beifall bei der AfD) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"76.320\" data-end=\"86.140\">Gesundheitsminister Lauterbach log, als er Ende Oktober sagte, dass es keinen Booster für alle brauche, und er drei Wochen später den Booster für alle forderte. </span><span class=\"timebased\" data-start=\"86.140\" data-end=\"97.200\">Einfache Abgeordnete logen, wie Emilia Fester, als sie verkündete, dass sie nicht im Ausland war, obwohl sie Urlaub in Dänemark gemacht hat. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"86.140\" data-end=\"102.660\">(Beifall bei der AfD) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"97.200\" data-end=\"102.660\">Aber wie kann man es dem Bundestagsküken zum Vorwurf machen, wenn selbst der Bundeskanzler lügt? </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"97.200\" data-end=\"109.920\">(Dr. Rolf Mützenich [SPD] Jetzt reicht’s aber mit dem Vorwurf der Lüge!) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"102.660\" data-end=\"109.920\">Olaf Scholz log, als er im Dezember erklärte, dass die Regierung nichts von schweren Nebenwirkungen der Impfung erfahren habe. </span><span class=\"timebased\" data-start=\"109.920\" data-end=\"116.600\">Zu dem Zeitpunkt waren laut Bundesregierung knapp 30 000 Fälle schwerer Nebenwirkungen registriert. </span><span class=\"timebased\" data-start=\"116.600\" data-end=\"119.400\">Das ist immerhin die Bevölkerung einer mittelgroßen Stadt. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"116.600\" data-end=\"126.000\">(Beifall bei der AfD) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"119.400\" data-end=\"126.000\">Herr Scholz ist nicht da; er ist zu Beginn meiner Rede anscheinend geflüchtet. </span><span class=\"timebased\" data-start=\"126.000\" data-end=\"130.000\">Aber ich denke, er schaut heimlich draußen am Fernseher zu. </span><span class=\"timebased\" data-start=\"130.000\" data-end=\"136.600\">Herr Scholz, Sie haben den Bürgern vor der Bundestagswahl gesagt: Wir brauchen keine Impfpflicht. </span><span class=\"timebased\" data-start=\"136.600\" data-end=\"146.360\">– Wollen Sie wirklich auch dieses Wahlversprechen brechen und als Lügenkanzler in die Geschichte eingehen? </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"136.600\" data-end=\"148.560\">(Beifall bei der AfD – Dr. Rolf Mützenich [SPD]: Das ist doch unglaublich mit dem Vorwurf der Lüge! Das muss doch mal gerügt werden!) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"146.360\" data-end=\"148.560\">Die nächste Lüge kam von Jens Spahn. </span><span class=\"timebased\" data-start=\"148.560\" data-end=\"151.240\">Er sagte nämlich, die Impfung sei ordentlich zugelassen. </span><span class=\"timebased\" data-start=\"151.240\" data-end=\"152.680\">Das ist die Impfung bis heute nicht. </span><span class=\"timebased\" data-start=\"152.680\" data-end=\"160.700\">Es gibt nur eine bedingte Zulassung der EMA, die bis 2024 eine ordentliche Zulassung prüft. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"152.680\" data-end=\"168.360\">(Dr. Alice Weidel [AfD]: Zwei Jahre!) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"160.700\" data-end=\"168.360\">Jeder, der ein Medikament nimmt, das nur bedingt zugelassen ist, nimmt an einem medizinischen Experiment teil. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"160.700\" data-end=\"173.160\">(Beifall bei der AfD) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"168.360\" data-end=\"173.160\">Und ein medizinisches Experiment darf niemals verpflichtend sein. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"168.360\" data-end=\"180.600\">(Beifall bei der AfD – Dr. Rolf Mützenich [SPD]: Was ist das denn hier für eine Debatte?) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"173.160\" data-end=\"180.600\">Das besagen nicht nur die Allgemeine Erklärung der Menschenrechte, die europäische Grundrechtecharta und das Grundgesetz; das sollte auch jeder Bundestagsabgeordnete aus der deutschen Geschichte gelernt haben. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"173.160\" data-end=\"182.280\">(Beifall bei der AfD) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"180.600\" data-end=\"182.280\">Daher fordere ich Sie alle auf: Schließen Sie sich uns an! </span><span class=\"timebased\" data-start=\"182.280\" data-end=\"184.920\">Zeigen Sie, dass Ihnen die Demokratie was wert ist, und stimmen Sie gegen die Impfpflicht! </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"182.280\" data-end=\"187.960\">(Beifall bei der AfD – Abgeordnete der AfD erheben sich) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"184.920\" data-end=\"187.960\">Bevor ich den nächsten Redner aufrufe, werde ich Sie, Kollege Sichert, für zwei Dinge rügen; denn es hat zwei persönliche Angriffe gegeben. </span><span class=\"timebased\" data-start=\"187.960\" data-end=\"190.280\">Ich will das hier noch einmal erklären. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"187.960\" data-end=\"194.640\">(Zurufe von der AfD: Oh!) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"190.280\" data-end=\"194.640\">Sie haben zum einen die Kollegin Emilia Fester als Bundestagsküken bezeichnet. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"190.280\" data-end=\"195.440\">(Lachen bei Abgeordneten der AfD) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"194.640\" data-end=\"195.440\">– Sie mögen lachen. </span><span class=\"timebased\" data-start=\"195.440\" data-end=\"197.600\">Das ist aber ein Angriff auf eine Person und eine despektierliche Äußerung. </span><span class=\"timebased\" data-start=\"197.600\" data-end=\"198.440\">Dafür rüge ich Sie hier. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"197.600\" data-end=\"200.720\">(Beifall bei der SPD, der CDU/CSU, dem BÜNDNIS 90/DIE GRÜNEN, der FDP und der LINKEN) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"198.440\" data-end=\"200.720\">Das Zweite ist: Sie haben den Bundeskanzler in Person als Lügner bezeichnet. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"198.440\" data-end=\"215.160\">(Beifall bei der AfD – Martin Reichardt [AfD]: Das ist doch so! – Weitere Zurufe von der AfD: Das ist richtig!) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"200.720\" data-end=\"215.160\">Auch das ist ein Angriff auf die Person. </span><span class=\"timebased\" data-start=\"215.160\" data-end=\"221.780\">Und auch dafür erteile ich Ihnen eine Rüge. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"215.160\" data-end=\"223.840\">(Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN, der FDP und der LINKEN sowie bei Abgeordneten der CDU/CSU – Martin Sichert [AfD]: Wenn er lügt, werde ich hier immer sagen, dass er ein Lügner ist!) </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"221.780\" data-end=\"223.840\">– Das diskutiere ich jetzt mit Ihnen nicht. </span><span class=\"timebased\" data-start=\"223.840\" data-end=\"225.720\">– Das ist hiermit noch mal festgehalten. </span></p><p data-type=\"speech\"><span class=\"timebased\" data-start=\"225.720\" data-end=\"228.000\">Jetzt rufe ich den nächsten Redner auf: für die Gruppe „Baehrens, Janecek und andere“ Dr. Karl Lauterbach. </span></p><p data-type=\"comment\"><span class=\"timebased\" data-start=\"225.720\" data-end=\"228.000\">(Beifall bei der SPD und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der FDP) </span></p>",
+                    "sourceURI": "https://www.bundestag.de/resource/blob/889400/831daf31987e4782b9c6d194a6776fa2/20028-data.xml",
+                    "creator": "Deutscher Bundestag",
+                    "license": "Public Domain",
+                    "language": "DE-de",
+                    "originTextID": "ID202801000",
+                    "lastChanged": "2023-02-24 05:03:30"
+                }
+            ]
+        },
+        "links": {
+            "self": "https://de.openparliament.tv/api/v1/media/DE-0200028012"
+        },
+        "relationships": {
+            "electoralPeriod": {
+                "data": {
+                    "type": "electoralPeriod",
+                    "id": "DE-020",
+                    "attributes": {
+                        "number": 20
+                    },
+                    "links": {
+                        "self": "https://de.openparliament.tv/api/v1/electoralPeriod/DE-020"
+                    }
+                }
+            },
+            "session": {
+                "data": {
+                    "type": "session",
+                    "id": "DE-0200028",
+                    "attributes": {
+                        "number": 28
+                    },
+                    "links": {
+                        "self": "https://de.openparliament.tv/api/v1/session/DE-0200028"
+                    }
+                }
+            },
+            "agendaItem": {
+                "data": {
+                    "type": "agendaItem",
+                    "id": "3708",
+                    "attributes": {
+                        "officialTitle": "Tagesordnungspunkt 6",
+                        "title": "Impfpflicht gegen SARS-CoV-2"
+                    },
+                    "links": {
+                        "self": "https://de.openparliament.tv/api/v1/agendaItem/DE-3708"
+                    }
+                }
+            },
+            "people": {
+                "data": [
+                    {
+                        "type": "person",
+                        "id": "Q40879307",
+                        "attributes": {
+                            "type": "memberOfParliament",
+                            "label": "Martin Sichert",
+                            "labelAlternative": [
+                                "Martin Johannes Sichert"
+                            ],
+                            "degree": "",
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/2018-10-12_Martin_Sichert_AfD_8111.jpg/300px-2018-10-12_Martin_Sichert_AfD_8111.jpg",
+                            "thumbnailCreator": "<a href=\"http://commons.wikimedia.org/wiki/User:Pixeldost\" title=\"User:Pixeldost\">Michael Lucan</a>",
+                            "thumbnailLicense": "CC-BY-SA",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Martin Sichert",
+                                    "url": "https://de.wikipedia.org/wiki/Martin_Sichert"
+                                },
+                                "abgeordnetenwatchID": "145823"
+                            },
+                            "party": {
+                                "id": "Q6721203",
+                                "label": "AfD",
+                                "labelAlternative": [
+                                    "Alternative für Deutschland"
+                                ]
+                            },
+                            "faction": {
+                                "id": "Q42575708",
+                                "label": "AfD",
+                                "labelAlternative": [
+                                    "AfD-Bundestagsfraktion",
+                                    "AfD-Fraktion"
+                                ]
+                            }
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/person/Q40879307"
+                        }
+                    },
+                    {
+                        "type": "person",
+                        "id": "Q1019016",
+                        "attributes": {
+                            "type": "memberOfParliament",
+                            "label": "Bärbel Bas",
+                            "labelAlternative": [],
+                            "degree": "",
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Empfang_f%C3%BCr_Bundestagspr%C3%A4sidentin_B%C3%A4rbel_Bas_im_K%C3%B6lner_Rathaus-5456.jpg/300px-Empfang_f%C3%BCr_Bundestagspr%C3%A4sidentin_B%C3%A4rbel_Bas_im_K%C3%B6lner_Rathaus-5456.jpg",
+                            "thumbnailCreator": "<a href=\"http://commons.wikimedia.org/wiki/User:Raymond\" title=\"User:Raymond\">Raimond Spekking</a>",
+                            "thumbnailLicense": "CC-BY-SA-4.0",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Bärbel Bas",
+                                    "url": "https://de.wikipedia.org/wiki/B%C3%A4rbel_Bas"
+                                },
+                                "abgeordnetenwatchID": "79455"
+                            },
+                            "party": {
+                                "id": "Q49768",
+                                "label": "SPD",
+                                "labelAlternative": [
+                                    "Sozialdemokratische Partei Deutschlands"
+                                ]
+                            },
+                            "faction": {
+                                "id": "Q2207512",
+                                "label": "SPD",
+                                "labelAlternative": [
+                                    "SPD-Bundestagsfraktion",
+                                    "SPD-Fraktion"
+                                ]
+                            }
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/person/Q1019016"
+                        }
+                    },
+                    {
+                        "type": "person",
+                        "id": "Q86294",
+                        "attributes": {
+                            "type": "memberOfParliament",
+                            "label": "Jens Spahn",
+                            "labelAlternative": [
+                                "Jens Georg Spahn"
+                            ],
+                            "degree": "B.",
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/MJKr01695_Jens_Spahn_%28NRW-Empfang%2C_Berlinale_2020%29.jpg/300px-MJKr01695_Jens_Spahn_%28NRW-Empfang%2C_Berlinale_2020%29.jpg",
+                            "thumbnailCreator": "<a href=\"http://commons.wikimedia.org/wiki/Creator:Martin_Kraft\" title=\"Creator:Martin Kraft\"></a>",
+                            "thumbnailLicense": "CC-BY-SA-4.0",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Jens Spahn",
+                                    "url": "https://de.wikipedia.org/wiki/Jens_Spahn"
+                                },
+                                "abgeordnetenwatchID": "78993"
+                            },
+                            "party": {
+                                "id": "Q49762",
+                                "label": "CDU",
+                                "labelAlternative": [
+                                    "Christlich Demokratische Union Deutschlands"
+                                ]
+                            },
+                            "faction": {
+                                "id": "Q1023134",
+                                "label": "CDU/CSU",
+                                "labelAlternative": [
+                                    "CDU/CSU-Bundestagsfraktion",
+                                    "CDU/CSU-Fraktion",
+                                    "Unionsfraktion",
+                                    "CDU-Fraktion"
+                                ]
+                            }
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/person/Q86294"
+                        }
+                    },
+                    {
+                        "type": "person",
+                        "id": "Q108736876",
+                        "attributes": {
+                            "type": "memberOfParliament",
+                            "label": "Emilia Fester",
+                            "labelAlternative": [
+                                "Emilia Johanna Fester"
+                            ],
+                            "degree": "",
+                            "thumbnailURI": null,
+                            "thumbnailCreator": null,
+                            "thumbnailLicense": null,
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Emilia Fester",
+                                    "url": "https://de.wikipedia.org/wiki/Emilia_Fester"
+                                },
+                                "abgeordnetenwatchID": "173148"
+                            },
+                            "party": {
+                                "id": "Q49766",
+                                "label": "GRÜNE",
+                                "labelAlternative": [
+                                    "Bündnis 90/Die Grünen",
+                                    "Bündnisgrüne",
+                                    "B'90/Grüne",
+                                    "Die Grünen",
+                                    "Bündnis 90/Die Grünen, GRÜNE",
+                                    "Die Gruenen",
+                                    "B90/GR"
+                                ]
+                            },
+                            "faction": {
+                                "id": "Q1007353",
+                                "label": "DIE GRÜNEN",
+                                "labelAlternative": [
+                                    "Bundestagsfraktion Bündnis 90/Die Grünen",
+                                    "Bündnis 90/Die Grünen Bundestagsfraktion",
+                                    "BÜNDNIS 90/DIE GRÜNEN"
+                                ]
+                            }
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/person/Q108736876"
+                        }
+                    },
+                    {
+                        "type": "person",
+                        "id": "Q36338130",
+                        "attributes": {
+                            "type": "memberOfParliament",
+                            "label": "Martin Reichardt",
+                            "labelAlternative": [],
+                            "degree": "",
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Martin_Reichardt.jpg/300px-Martin_Reichardt.jpg",
+                            "thumbnailCreator": "<a href=\"http://commons.wikimedia.org/w/index.php?title=User:DaSch001&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:DaSch001 (page does not exist)\">Daniel Schneider</a>",
+                            "thumbnailLicense": "CC-BY-SA-3.0",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Martin Reichardt (Politiker)",
+                                    "url": "https://de.wikipedia.org/wiki/Martin_Reichardt_(Politiker)"
+                                },
+                                "abgeordnetenwatchID": "150298"
+                            },
+                            "party": {
+                                "id": "Q6721203",
+                                "label": "AfD",
+                                "labelAlternative": [
+                                    "Alternative für Deutschland"
+                                ]
+                            },
+                            "faction": {
+                                "id": "Q42575708",
+                                "label": "AfD",
+                                "labelAlternative": [
+                                    "AfD-Bundestagsfraktion",
+                                    "AfD-Fraktion"
+                                ]
+                            }
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/person/Q36338130"
+                        }
+                    },
+                    {
+                        "type": "person",
+                        "id": "Q27975838",
+                        "attributes": {
+                            "type": "memberOfParliament",
+                            "label": "Alice Weidel",
+                            "labelAlternative": [
+                                "Alice Elisabeth Weidel"
+                            ],
+                            "degree": "Doktortitel",
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/2019-09-01_Wahlabend_Sachsen_by_Sandro_Halank%E2%80%93039.jpg/300px-2019-09-01_Wahlabend_Sachsen_by_Sandro_Halank%E2%80%93039.jpg",
+                            "thumbnailCreator": "<a href=\"http://commons.wikimedia.org/wiki/User:Sandro_Halank\" title=\"User:Sandro Halank\">Sandro Halank</a>",
+                            "thumbnailLicense": "CC-BY-SA-4.0",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Alice Weidel",
+                                    "url": "https://de.wikipedia.org/wiki/Alice_Weidel"
+                                },
+                                "abgeordnetenwatchID": "108379"
+                            },
+                            "party": {
+                                "id": "Q6721203",
+                                "label": "AfD",
+                                "labelAlternative": [
+                                    "Alternative für Deutschland"
+                                ]
+                            },
+                            "faction": {
+                                "id": "Q42575708",
+                                "label": "AfD",
+                                "labelAlternative": [
+                                    "AfD-Bundestagsfraktion",
+                                    "AfD-Fraktion"
+                                ]
+                            }
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/person/Q27975838"
+                        }
+                    },
+                    {
+                        "type": "person",
+                        "id": "Q2163668",
+                        "attributes": {
+                            "type": "memberOfParliament",
+                            "label": "Rolf Mützenich",
+                            "labelAlternative": [],
+                            "degree": "",
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Rolf_M%C3%BCtzenich.jpg/300px-Rolf_M%C3%BCtzenich.jpg",
+                            "thumbnailCreator": "Olaf Kosinsky",
+                            "thumbnailLicense": "CC-BY-SA-3.0-DE",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Rolf Mützenich",
+                                    "url": "https://de.wikipedia.org/wiki/Rolf_M%C3%BCtzenich"
+                                },
+                                "abgeordnetenwatchID": "78838"
+                            },
+                            "party": {
+                                "id": "Q49768",
+                                "label": "SPD",
+                                "labelAlternative": [
+                                    "Sozialdemokratische Partei Deutschlands"
+                                ]
+                            },
+                            "faction": {
+                                "id": "Q2207512",
+                                "label": "SPD",
+                                "labelAlternative": [
+                                    "SPD-Bundestagsfraktion",
+                                    "SPD-Fraktion"
+                                ]
+                            }
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/person/Q2163668"
+                        }
+                    },
+                    {
+                        "type": "person",
+                        "id": "Q15114946",
+                        "attributes": {
+                            "type": "memberOfParliament",
+                            "label": "Heike Baehrens",
+                            "labelAlternative": [],
+                            "degree": "",
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/2020-02-13_Heike_Baehrens_%28Bundestagsprojekt_2020%29_by_Sandro_Halank%E2%80%932.jpg/300px-2020-02-13_Heike_Baehrens_%28Bundestagsprojekt_2020%29_by_Sandro_Halank%E2%80%932.jpg",
+                            "thumbnailCreator": "<a href=\"http://commons.wikimedia.org/wiki/User:Sandro_Halank\" title=\"User:Sandro Halank\">Sandro Halank</a>",
+                            "thumbnailLicense": "CC-BY-SA-4.0",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Heike Baehrens",
+                                    "url": "https://de.wikipedia.org/wiki/Heike_Baehrens"
+                                },
+                                "abgeordnetenwatchID": "79474"
+                            },
+                            "party": {
+                                "id": "Q49768",
+                                "label": "SPD",
+                                "labelAlternative": [
+                                    "Sozialdemokratische Partei Deutschlands"
+                                ]
+                            },
+                            "faction": {
+                                "id": "Q2207512",
+                                "label": "SPD",
+                                "labelAlternative": [
+                                    "SPD-Bundestagsfraktion",
+                                    "SPD-Fraktion"
+                                ]
+                            }
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/person/Q15114946"
+                        }
+                    },
+                    {
+                        "type": "person",
+                        "id": "Q1222215",
+                        "attributes": {
+                            "type": "memberOfParliament",
+                            "label": "Dieter Janecek",
+                            "labelAlternative": [
+                                "Dieter Gerald Janecek"
+                            ],
+                            "degree": "",
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Janecek%2C_Dieter-0500.jpg/300px-Janecek%2C_Dieter-0500.jpg",
+                            "thumbnailCreator": "Foto-AG Gymnasium Melle",
+                            "thumbnailLicense": "CC-BY-SA",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Dieter Janecek",
+                                    "url": "https://de.wikipedia.org/wiki/Dieter_Janecek"
+                                },
+                                "abgeordnetenwatchID": "79275"
+                            },
+                            "party": {
+                                "id": "Q49766",
+                                "label": "GRÜNE",
+                                "labelAlternative": [
+                                    "Bündnis 90/Die Grünen",
+                                    "Bündnisgrüne",
+                                    "B'90/Grüne",
+                                    "Die Grünen",
+                                    "Bündnis 90/Die Grünen, GRÜNE",
+                                    "Die Gruenen",
+                                    "B90/GR"
+                                ]
+                            },
+                            "faction": {
+                                "id": "Q1007353",
+                                "label": "DIE GRÜNEN",
+                                "labelAlternative": [
+                                    "Bundestagsfraktion Bündnis 90/Die Grünen",
+                                    "Bündnis 90/Die Grünen Bundestagsfraktion",
+                                    "BÜNDNIS 90/DIE GRÜNEN"
+                                ]
+                            }
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/person/Q1222215"
+                        }
+                    },
+                    {
+                        "type": "person",
+                        "id": "Q105676",
+                        "attributes": {
+                            "type": "memberOfParliament",
+                            "label": "Karl Lauterbach",
+                            "labelAlternative": [
+                                "Karl Wilhelm Lauterbach",
+                                "Karl W. Lauterbach",
+                                "K. W. Lauterbach",
+                                "K. Lauterbach"
+                            ],
+                            "degree": "",
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/MJK_67610_Karl_Lauterbach_%28Bundestag_2020%29.jpg/300px-MJK_67610_Karl_Lauterbach_%28Bundestag_2020%29.jpg",
+                            "thumbnailCreator": "<a href=\"http://commons.wikimedia.org/wiki/User:Martin_Kraft\" title=\"User:Martin Kraft\">Martin Kraft</a>",
+                            "thumbnailLicense": "CC-BY-SA-4.0",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Karl Lauterbach",
+                                    "url": "https://de.wikipedia.org/wiki/Karl_Lauterbach"
+                                },
+                                "abgeordnetenwatchID": "79215"
+                            },
+                            "party": {
+                                "id": "Q49768",
+                                "label": "SPD",
+                                "labelAlternative": [
+                                    "Sozialdemokratische Partei Deutschlands"
+                                ]
+                            },
+                            "faction": {
+                                "id": "Q2207512",
+                                "label": "SPD",
+                                "labelAlternative": [
+                                    "SPD-Bundestagsfraktion",
+                                    "SPD-Fraktion"
+                                ]
+                            }
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/person/Q105676"
+                        }
+                    },
+                    {
+                        "type": "person",
+                        "id": "Q61053",
+                        "attributes": {
+                            "type": "memberOfParliament",
+                            "label": "Olaf Scholz",
+                            "labelAlternative": [
+                                "Scholz"
+                            ],
+                            "degree": "",
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Olaf_Scholz%2C_15-12-2022_%281%29_%28cropped%29.jpg/300px-Olaf_Scholz%2C_15-12-2022_%281%29_%28cropped%29.jpg",
+                            "thumbnailCreator": "European Commission",
+                            "thumbnailLicense": "CC-BY-SA",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Olaf Scholz",
+                                    "url": "https://de.wikipedia.org/wiki/Olaf_Scholz"
+                                },
+                                "abgeordnetenwatchID": "66924"
+                            },
+                            "party": {
+                                "id": "Q49768",
+                                "label": "SPD",
+                                "labelAlternative": [
+                                    "Sozialdemokratische Partei Deutschlands"
+                                ]
+                            },
+                            "faction": {
+                                "id": "Q2207512",
+                                "label": "SPD",
+                                "labelAlternative": [
+                                    "SPD-Bundestagsfraktion",
+                                    "SPD-Fraktion"
+                                ]
+                            }
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/person/Q61053"
+                        }
+                    }
+                ],
+                "links": {
+                    "self": "https://de.openparliament.tv/api/v1/search/annotations?mediaID=DE-0200028012&type=person"
+                }
+            },
+            "organisations": {
+                "data": [
+                    {
+                        "type": "organisation",
+                        "id": "Q42575708",
+                        "attributes": {
+                            "context": "main-speaker-faction",
+                            "type": "faction",
+                            "label": "AfD",
+                            "labelAlternative": [
+                                "AfD-Bundestagsfraktion",
+                                "AfD-Fraktion"
+                            ],
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/AFD_Fraktion_im_Bundestag_Logo.svg/300px-AFD_Fraktion_im_Bundestag_Logo.svg.png",
+                            "thumbnailCreator": "AfD-Bundestagsfraktion",
+                            "thumbnailLicense": "CC-BY-SA",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "AfD-Fraktion im Deutschen Bundestag",
+                                    "url": "https://de.wikipedia.org/wiki/AfD-Fraktion_im_Deutschen_Bundestag"
+                                }
+                            },
+                            "color": null
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/organisation/Q42575708"
+                        }
+                    },
+                    {
+                        "type": "organisation",
+                        "id": "Q2207512",
+                        "attributes": {
+                            "context": "NER",
+                            "type": "faction",
+                            "label": "SPD",
+                            "labelAlternative": [
+                                "SPD-Bundestagsfraktion",
+                                "SPD-Fraktion"
+                            ],
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/SPD-Bundestagsfraktion_Logo_2019.svg/300px-SPD-Bundestagsfraktion_Logo_2019.svg.png",
+                            "thumbnailCreator": "SPD-Bundestagsfraktion",
+                            "thumbnailLicense": "PD textlogo",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "SPD-Bundestagsfraktion",
+                                    "url": "https://de.wikipedia.org/wiki/SPD-Bundestagsfraktion"
+                                }
+                            },
+                            "color": null
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/organisation/Q2207512"
+                        }
+                    },
+                    {
+                        "type": "organisation",
+                        "id": "Q1023134",
+                        "attributes": {
+                            "context": "NER",
+                            "type": "faction",
+                            "label": "CDU/CSU",
+                            "labelAlternative": [
+                                "CDU/CSU-Bundestagsfraktion",
+                                "CDU/CSU-Fraktion",
+                                "Unionsfraktion",
+                                "CDU-Fraktion"
+                            ],
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Cducsu_fraktion_logo_rgb.svg/300px-Cducsu_fraktion_logo_rgb.svg.png",
+                            "thumbnailCreator": "Adler &amp; Schmidt Kommunikations-Design",
+                            "thumbnailLicense": "PD textlogo",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "CDU/CSU-Fraktion im Deutschen Bundestag",
+                                    "url": "https://de.wikipedia.org/wiki/CDU/CSU-Fraktion_im_Deutschen_Bundestag"
+                                }
+                            },
+                            "color": null
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/organisation/Q1023134"
+                        }
+                    },
+                    {
+                        "type": "organisation",
+                        "id": "Q1007353",
+                        "attributes": {
+                            "context": "NER",
+                            "type": "faction",
+                            "label": "DIE GRÜNEN",
+                            "labelAlternative": [
+                                "Bundestagsfraktion Bündnis 90/Die Grünen",
+                                "Bündnis 90/Die Grünen Bundestagsfraktion",
+                                "BÜNDNIS 90/DIE GRÜNEN"
+                            ],
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/de/thumb/d/d1/Bundestagsfraktion_B%C3%BCndnis_90-Die_Gr%C3%BCnen_Logo.svg/300px-Bundestagsfraktion_B%C3%BCndnis_90-Die_Gr%C3%BCnen_Logo.svg.png",
+                            "thumbnailCreator": "Bundestagsfraktion Bündnis 90/Die Grünen",
+                            "thumbnailLicense": "Copyright",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Bundestagsfraktion Bündnis 90/Die Grünen",
+                                    "url": "https://de.wikipedia.org/wiki/Bundestagsfraktion_B%C3%BCndnis_90/Die_Gr%C3%BCnen"
+                                }
+                            },
+                            "color": null
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/organisation/Q1007353"
+                        }
+                    },
+                    {
+                        "type": "organisation",
+                        "id": "Q1387991",
+                        "attributes": {
+                            "context": "NER",
+                            "type": "faction",
+                            "label": "FDP",
+                            "labelAlternative": [
+                                "FDP-Bundestagsfraktion",
+                                "FDP-Fraktion",
+                                "Fraktion der Freien Demokraten"
+                            ],
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Logo_fdp_bundestagsfraktion.svg/300px-Logo_fdp_bundestagsfraktion.svg.png",
+                            "thumbnailCreator": "FDP Bundestagsfraktion",
+                            "thumbnailLicense": "PD textlogo",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Fraktion der Freien Demokraten",
+                                    "url": "https://de.wikipedia.org/wiki/Fraktion_der_Freien_Demokraten"
+                                }
+                            },
+                            "color": null
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/organisation/Q1387991"
+                        }
+                    },
+                    {
+                        "type": "organisation",
+                        "id": "Q1826856",
+                        "attributes": {
+                            "context": "NER",
+                            "type": "faction",
+                            "label": "DIE LINKE",
+                            "labelAlternative": [
+                                "Bundestagsfraktion Die Linke"
+                            ],
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Die_Linke_BT_Fraktion_Logo.svg/300px-Die_Linke_BT_Fraktion_Logo.svg.png",
+                            "thumbnailCreator": "Fraktion DIE LINKE. im Bundestag",
+                            "thumbnailLicense": "PD textlogo",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Fraktion Die Linke im Bundestag",
+                                    "url": "https://de.wikipedia.org/wiki/Fraktion_Die_Linke_im_Bundestag"
+                                }
+                            },
+                            "color": null
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/organisation/Q1826856"
+                        }
+                    }
+                ],
+                "links": {
+                    "self": "https://de.openparliament.tv/api/v1/search/annotations?mediaID=DE-0200028012&type=organisation"
+                }
+            },
+            "documents": {
+                "data": [
+                    {
+                        "type": "document",
+                        "id": "5947",
+                        "attributes": {
+                            "context": "proceedingsReference",
+                            "type": "officialDocument",
+                            "label": "Drucksache 20/899",
+                            "labelAlternative": [
+                                "Entwurf eines Gesetzes zur Aufklärung, Beratung und Impfung aller Volljährigen gegen SARS-CoV-2 (SARSCovImpfG)"
+                            ],
+                            "thumbnailURI": null,
+                            "thumbnailCreator": null,
+                            "thumbnailLicense": null,
+                            "additionalInformation": {
+                                "originID": "259541",
+                                "subType": "Gesetzentwurf",
+                                "date": "2022-03-03",
+                                "electoralPeriod": 20,
+                                "creator": [],
+                                "author": [
+                                    {
+                                        "id": "1500",
+                                        "titel": "Heike Baehrens, MdB, SPD",
+                                        "autor_titel": "Heike Baehrens"
+                                    },
+                                    {
+                                        "id": "7173",
+                                        "titel": "Dr. Janosch Dahmen, MdB, BÜNDNIS 90/DIE GRÜNEN",
+                                        "autor_titel": "Janosch Dahmen"
+                                    }
+                                ],
+                                "procedureIDs": [
+                                    {
+                                        "id": "284990",
+                                        "titel": "Gesetz zur Aufklärung, Beratung und Impfung aller Volljährigen gegen SARS-CoV-2 (SARSCovImpfG)",
+                                        "vorgangstyp": "Gesetzgebung"
+                                    }
+                                ]
+                            },
+                            "sourceURI": "https://dserver.bundestag.de/btd/20/008/2000899.pdf",
+                            "embedURI": null
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/document/5947"
+                        }
+                    },
+                    {
+                        "type": "document",
+                        "id": "5949",
+                        "attributes": {
+                            "context": "proceedingsReference",
+                            "type": "officialDocument",
+                            "label": "Drucksache 20/680",
+                            "labelAlternative": [
+                                "Impfbereitschaft ohne allgemeine Impfpflicht gegen SARS-CoV-2 erhöhen"
+                            ],
+                            "thumbnailURI": null,
+                            "thumbnailCreator": null,
+                            "thumbnailLicense": null,
+                            "additionalInformation": {
+                                "originID": "259256",
+                                "subType": "Antrag",
+                                "date": "2022-02-15",
+                                "electoralPeriod": 20,
+                                "creator": [],
+                                "author": [
+                                    {
+                                        "id": "6962",
+                                        "titel": "Wolfgang Kubicki, MdB, FDP",
+                                        "autor_titel": "Wolfgang Kubicki"
+                                    },
+                                    {
+                                        "id": "1005",
+                                        "titel": "Christine Aschenberg-Dugnus, MdB, FDP",
+                                        "autor_titel": "Christine Aschenberg-Dugnus"
+                                    }
+                                ],
+                                "procedureIDs": [
+                                    {
+                                        "id": "284418",
+                                        "titel": "Impfbereitschaft ohne allgemeine Impfpflicht gegen SARS-CoV-2 erhöhen",
+                                        "vorgangstyp": "Antrag"
+                                    }
+                                ]
+                            },
+                            "sourceURI": "https://dserver.bundestag.de/btd/20/006/2000680.pdf",
+                            "embedURI": null
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/document/5949"
+                        }
+                    },
+                    {
+                        "type": "document",
+                        "id": "5950",
+                        "attributes": {
+                            "context": "proceedingsReference",
+                            "type": "officialDocument",
+                            "label": "Drucksache 20/978",
+                            "labelAlternative": [
+                                "Impfvorsorgegesetz - Ein guter Schutz für unser Land"
+                            ],
+                            "thumbnailURI": null,
+                            "thumbnailCreator": null,
+                            "thumbnailLicense": null,
+                            "additionalInformation": {
+                                "originID": "259703",
+                                "subType": "Antrag",
+                                "date": "2022-03-14",
+                                "electoralPeriod": 20,
+                                "creator": [
+                                    "Fraktion der CDU/CSU"
+                                ],
+                                "procedureIDs": [
+                                    {
+                                        "id": "285223",
+                                        "titel": "Impfvorsorgegesetz - Ein guter Schutz für unser Land",
+                                        "vorgangstyp": "Antrag"
+                                    }
+                                ]
+                            },
+                            "sourceURI": "https://dserver.bundestag.de/btd/20/009/2000978.pdf",
+                            "embedURI": null
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/document/5950"
+                        }
+                    },
+                    {
+                        "type": "document",
+                        "id": "5951",
+                        "attributes": {
+                            "context": "proceedingsReference",
+                            "type": "officialDocument",
+                            "label": "Drucksache 20/516",
+                            "labelAlternative": [
+                                "Keine gesetzliche Impfpflicht gegen das COVID-19-Virus"
+                            ],
+                            "thumbnailURI": null,
+                            "thumbnailCreator": null,
+                            "thumbnailLicense": null,
+                            "additionalInformation": {
+                                "originID": "258990",
+                                "subType": "Antrag",
+                                "date": "2022-01-26",
+                                "electoralPeriod": 20,
+                                "creator": [
+                                    "Fraktion der AfD"
+                                ],
+                                "author": [
+                                    {
+                                        "id": "2134",
+                                        "titel": "Martin Sichert, MdB, AfD",
+                                        "autor_titel": "Martin Sichert"
+                                    },
+                                    {
+                                        "id": "2133",
+                                        "titel": "Thomas Seitz, MdB, AfD",
+                                        "autor_titel": "Thomas Seitz"
+                                    }
+                                ],
+                                "procedureIDs": [
+                                    {
+                                        "id": "283844",
+                                        "titel": "Keine gesetzliche Impfpflicht gegen das COVID-19-Virus",
+                                        "vorgangstyp": "Antrag"
+                                    }
+                                ]
+                            },
+                            "sourceURI": "https://dserver.bundestag.de/btd/20/005/2000516.pdf",
+                            "embedURI": null
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/document/5951"
+                        }
+                    },
+                    {
+                        "type": "document",
+                        "id": "6007",
+                        "attributes": {
+                            "context": "proceedingsReference",
+                            "type": "officialDocument",
+                            "label": "Drucksache 20/1353",
+                            "labelAlternative": [
+                                "a) zu dem Gesetzentwurf der Abgeordneten Heike Baehrens und weiter Abgeordner\r\n- Drucksache 20/899 -\r\nEntwurf eines Gesetzes zur Aufklärung, Beratung und Impfung aller Volljährigen gegen SARS-CoV-2 (SARSCoVImpfG)\r\nb) zu dem Gesetzentwurf der Abgeordneten Dieter Janecek und weiterer Abgeordneter\r\n- Drucksache 20/954 -\r\nEntwurf eines Gesetzes zur Einführung einer verpflichtenden Impfberatung für Erwachsene und einer altersbezogenen Impfpflicht ab 50 Jahren unter Vorbehalt gegen das Coronavirus SARS-CoV-2 \r\nc) zu dem Antrag der Abgeordneten Wolfgang Kubicki und weiterer Abgeordneter\r\n- Drucksache 20/680 -\r\nImpfbereitschaft ohne allgemeine Impfpflicht gegen SARS-CoV-2 erhöhen\r\nd) zu dem Antrag der Fraktion der CDU/CSU\r\n- Drucksache 20/978 -\r\nImpfvorsorgegesetz - Ein guter Schutz für unser Land\r\ne) zu dem Antrag der Abgeordneten Martin Sicher,  weiterer Abgeordneter der Fraktion der AfD\r\n- Drucksache 20/516 -\r\nKeine gesetzliche Impfpflicht gegen das COVID-19-Virus"
+                            ],
+                            "thumbnailURI": null,
+                            "thumbnailCreator": null,
+                            "thumbnailLicense": null,
+                            "additionalInformation": {
+                                "originID": "260156",
+                                "subType": "Beschlussempfehlung und Bericht",
+                                "date": "2022-04-06",
+                                "electoralPeriod": 20,
+                                "creator": [
+                                    "Ausschuss für Gesundheit"
+                                ],
+                                "author": [
+                                    {
+                                        "id": "1500",
+                                        "titel": "Heike Baehrens, MdB, SPD",
+                                        "autor_titel": "Heike Baehrens, Berichterstattung"
+                                    },
+                                    {
+                                        "id": "7173",
+                                        "titel": "Dr. Janosch Dahmen, MdB, BÜNDNIS 90/DIE GRÜNEN",
+                                        "autor_titel": "Janosch Dahmen, Berichterstattung"
+                                    },
+                                    {
+                                        "id": "2134",
+                                        "titel": "Martin Sichert, MdB, AfD",
+                                        "autor_titel": "Martin Sichert, Berichterstattung"
+                                    },
+                                    {
+                                        "id": "1615",
+                                        "titel": "Tino Sorge, MdB, CDU/CSU",
+                                        "autor_titel": "Tino Sorge, Berichterstattung"
+                                    }
+                                ],
+                                "procedureIDs": [
+                                    {
+                                        "id": "284990",
+                                        "titel": "Gesetz zur Aufklärung, Beratung und Impfung aller Volljährigen gegen SARS-CoV-2 (SARSCovImpfG)",
+                                        "vorgangstyp": "Gesetzgebung"
+                                    },
+                                    {
+                                        "id": "284418",
+                                        "titel": "Impfbereitschaft ohne allgemeine Impfpflicht gegen SARS-CoV-2 erhöhen",
+                                        "vorgangstyp": "Antrag"
+                                    },
+                                    {
+                                        "id": "283844",
+                                        "titel": "Keine gesetzliche Impfpflicht gegen das COVID-19-Virus",
+                                        "vorgangstyp": "Antrag"
+                                    },
+                                    {
+                                        "id": "285168",
+                                        "titel": "Gesetz zur Einführung einer verpflichtenden Impfberatung für Erwachsene und einer altersbezogenen Impfpflicht ab 50 Jahren unter Vorbehalt gegen das Coronavirus SARS-CoV-2",
+                                        "vorgangstyp": "Gesetzgebung"
+                                    }
+                                ]
+                            },
+                            "sourceURI": "https://dserver.bundestag.de/btd/20/013/2001353.pdf",
+                            "embedURI": null
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/document/6007"
+                        }
+                    },
+                    {
+                        "type": "document",
+                        "id": "5948",
+                        "attributes": {
+                            "context": "proceedingsReference",
+                            "type": "officialDocument",
+                            "label": "Drucksache 20/954",
+                            "labelAlternative": [
+                                "Entwurf eines Gesetzes zur Einführung einer verpflichtenden Impfberatung für Erwachsene und einer altersbezogenen Impfpflicht ab 50 Jahren unter Vorbehalt gegen das Coronavirus SARS-CoV-2"
+                            ],
+                            "thumbnailURI": null,
+                            "thumbnailCreator": null,
+                            "thumbnailLicense": null,
+                            "additionalInformation": {
+                                "originID": "259616",
+                                "subType": "Gesetzentwurf",
+                                "date": "2022-03-10",
+                                "electoralPeriod": 20,
+                                "creator": [],
+                                "author": [
+                                    {
+                                        "id": "1690",
+                                        "titel": "Dieter Janecek, MdB, BÜNDNIS 90/DIE GRÜNEN",
+                                        "autor_titel": "Dieter Janecek"
+                                    },
+                                    {
+                                        "id": "2271",
+                                        "titel": "Gyde Jensen, MdB, FDP",
+                                        "autor_titel": "Gyde Jensen"
+                                    }
+                                ],
+                                "procedureIDs": [
+                                    {
+                                        "id": "285168",
+                                        "titel": "Gesetz zur Einführung einer verpflichtenden Impfberatung für Erwachsene und einer altersbezogenen Impfpflicht ab 50 Jahren unter Vorbehalt gegen das Coronavirus SARS-CoV-2",
+                                        "vorgangstyp": "Gesetzgebung"
+                                    }
+                                ]
+                            },
+                            "sourceURI": "https://dserver.bundestag.de/btd/20/009/2000954.pdf",
+                            "embedURI": null
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/document/5948"
+                        }
+                    }
+                ],
+                "links": {
+                    "self": "https://de.openparliament.tv/api/v1/search/annotations?mediaID=DE-0200028012&type=document"
+                }
+            },
+            "terms": {
+                "data": [
+                    {
+                        "type": "term",
+                        "id": "Q7813",
+                        "attributes": {
+                            "context": "NER",
+                            "type": "otherTerm",
+                            "label": "UDHR",
+                            "labelAlternative": [
+                                "Allgemeine Erklärung der Menschenrechte",
+                                "AEMR",
+                                "Menschenrechte der Vereinten Nationen",
+                                "AEdMR",
+                                "Deklaration der Menschenrechte",
+                                "UN-Menschenrechtscharta",
+                                "UNO-Menschenrechtsdeklaration"
+                            ],
+                            "websiteURI": "http://www.un.org/en/documents/udhr/",
+                            "thumbnailURI": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Eleanor_Roosevelt_UDHR.jpg/300px-Eleanor_Roosevelt_UDHR.jpg",
+                            "thumbnailCreator": "FDR Presidential Library &amp; Museum",
+                            "thumbnailLicense": "CC-BY-2.0",
+                            "additionalInformation": {
+                                "wikipedia": {
+                                    "title": "Allgemeine Erklärung der Menschenrechte",
+                                    "url": "https://de.wikipedia.org/wiki/Allgemeine_Erkl%C3%A4rung_der_Menschenrechte"
+                                }
+                            }
+                        },
+                        "links": {
+                            "self": "https://de.openparliament.tv/api/v1/term/Q7813"
+                        }
+                    }
+                ],
+                "links": {
+                    "self": "https://de.openparliament.tv/api/v1/search/annotations?mediaID=DE-0200028012&type=term"
+                }
+            }
+        },
+        "annotations": {
+            "data": [
+                {
+                    "type": "person",
+                    "id": "Q40879307",
+                    "attributes": {
+                        "timeStart": null,
+                        "timeEnd": null,
+                        "context": "main-speaker",
+                        "additionalInformation": {
+                            "role": null,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "145823",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "person",
+                    "id": "Q1019016",
+                    "attributes": {
+                        "timeStart": null,
+                        "timeEnd": null,
+                        "context": "president",
+                        "additionalInformation": {
+                            "role": null,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "79455",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "person",
+                    "id": "Q86294",
+                    "attributes": {
+                        "timeStart": "146.36",
+                        "timeEnd": "148.56",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.9952,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "78993",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "person",
+                    "id": "Q108736876",
+                    "attributes": {
+                        "timeStart": "86.14",
+                        "timeEnd": "97.2",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.9842,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "173148",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "person",
+                    "id": "Q36338130",
+                    "attributes": {
+                        "timeStart": "198.44",
+                        "timeEnd": "215.16",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.288,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "150298",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "person",
+                    "id": "Q27975838",
+                    "attributes": {
+                        "timeStart": "152.68",
+                        "timeEnd": "168.36",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.9952,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "108379",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "person",
+                    "id": "Q2163668",
+                    "attributes": {
+                        "timeStart": "168.36",
+                        "timeEnd": "180.6",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.9952,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "78838",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "person",
+                    "id": "Q2163668",
+                    "attributes": {
+                        "timeStart": "136.6",
+                        "timeEnd": "148.56",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.9952,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "78838",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "person",
+                    "id": "Q2163668",
+                    "attributes": {
+                        "timeStart": "97.2",
+                        "timeEnd": "109.92",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.9952,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "78838",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "person",
+                    "id": "Q15114946",
+                    "attributes": {
+                        "timeStart": "225.72",
+                        "timeEnd": "228",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.1392,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "79474",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "person",
+                    "id": "Q1222215",
+                    "attributes": {
+                        "timeStart": "225.72",
+                        "timeEnd": "228",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.1324,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "79275",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "person",
+                    "id": "Q108736876",
+                    "attributes": {
+                        "timeStart": "190.28",
+                        "timeEnd": "194.64",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.9842,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "173148",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "person",
+                    "id": "Q40879307",
+                    "attributes": {
+                        "timeStart": "215.16",
+                        "timeEnd": "223.84",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.99,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "145823",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "person",
+                    "id": "Q105676",
+                    "attributes": {
+                        "timeStart": "225.72",
+                        "timeEnd": "228",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.6315,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "79215",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "person",
+                    "id": "Q61053",
+                    "attributes": {
+                        "timeStart": "102.66",
+                        "timeEnd": "109.92",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.9939,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": "66924",
+                            "originID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": null,
+                        "timeEnd": null,
+                        "context": "main-speaker-faction",
+                        "additionalInformation": {
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "term",
+                    "id": "Q7813",
+                    "attributes": {
+                        "timeStart": "173.16",
+                        "timeEnd": "180.6",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.9853,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "13.4",
+                        "timeEnd": "26.52",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3515,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "26.52",
+                        "timeEnd": "41.48",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3515,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "41.48",
+                        "timeEnd": "46",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3515,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "46",
+                        "timeEnd": "69.22",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3515,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "74.52",
+                        "timeEnd": "86.14",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3515,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "86.14",
+                        "timeEnd": "102.66",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3515,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "116.6",
+                        "timeEnd": "126",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3515,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "215.16",
+                        "timeEnd": "223.84",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.6875,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "182.28",
+                        "timeEnd": "187.96",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3506,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "198.44",
+                        "timeEnd": "215.16",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3522,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "136.6",
+                        "timeEnd": "148.56",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.6875,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "152.68",
+                        "timeEnd": "168.36",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.6875,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "198.44",
+                        "timeEnd": "215.16",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3522,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "160.7",
+                        "timeEnd": "173.16",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3515,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "198.44",
+                        "timeEnd": "215.16",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3522,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "173.16",
+                        "timeEnd": "182.28",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3515,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "190.28",
+                        "timeEnd": "195.44",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3515,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "182.28",
+                        "timeEnd": "187.96",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3506,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q42575708",
+                    "attributes": {
+                        "timeStart": "168.36",
+                        "timeEnd": "180.6",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.6875,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "document",
+                    "id": "5947",
+                    "attributes": {
+                        "timeStart": null,
+                        "timeEnd": null,
+                        "context": "proceedingsReference",
+                        "additionalInformation": {
+                            "originID": "259541",
+                            "procedureIDs": [
+                                {
+                                    "id": "284990",
+                                    "titel": "Gesetz zur Aufklärung, Beratung und Impfung aller Volljährigen gegen SARS-CoV-2 (SARSCovImpfG)",
+                                    "vorgangstyp": "Gesetzgebung"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q2207512",
+                    "attributes": {
+                        "timeStart": "225.72",
+                        "timeEnd": "228",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3755,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q1023134",
+                    "attributes": {
+                        "timeStart": "215.16",
+                        "timeEnd": "223.84",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.5848,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "document",
+                    "id": "5949",
+                    "attributes": {
+                        "timeStart": null,
+                        "timeEnd": null,
+                        "context": "proceedingsReference",
+                        "additionalInformation": {
+                            "originID": "259256",
+                            "procedureIDs": [
+                                {
+                                    "id": "284418",
+                                    "titel": "Impfbereitschaft ohne allgemeine Impfpflicht gegen SARS-CoV-2 erhöhen",
+                                    "vorgangstyp": "Antrag"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "document",
+                    "id": "5950",
+                    "attributes": {
+                        "timeStart": null,
+                        "timeEnd": null,
+                        "context": "proceedingsReference",
+                        "additionalInformation": {
+                            "originID": "259703",
+                            "procedureIDs": [
+                                {
+                                    "id": "285223",
+                                    "titel": "Impfvorsorgegesetz - Ein guter Schutz für unser Land",
+                                    "vorgangstyp": "Antrag"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "document",
+                    "id": "5951",
+                    "attributes": {
+                        "timeStart": null,
+                        "timeEnd": null,
+                        "context": "proceedingsReference",
+                        "additionalInformation": {
+                            "originID": "258990",
+                            "procedureIDs": [
+                                {
+                                    "id": "283844",
+                                    "titel": "Keine gesetzliche Impfpflicht gegen das COVID-19-Virus",
+                                    "vorgangstyp": "Antrag"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "document",
+                    "id": "6007",
+                    "attributes": {
+                        "timeStart": null,
+                        "timeEnd": null,
+                        "context": "proceedingsReference",
+                        "additionalInformation": {
+                            "originID": "260156",
+                            "procedureIDs": [
+                                {
+                                    "id": "284990",
+                                    "titel": "Gesetz zur Aufklärung, Beratung und Impfung aller Volljährigen gegen SARS-CoV-2 (SARSCovImpfG)",
+                                    "vorgangstyp": "Gesetzgebung"
+                                },
+                                {
+                                    "id": "284418",
+                                    "titel": "Impfbereitschaft ohne allgemeine Impfpflicht gegen SARS-CoV-2 erhöhen",
+                                    "vorgangstyp": "Antrag"
+                                },
+                                {
+                                    "id": "283844",
+                                    "titel": "Keine gesetzliche Impfpflicht gegen das COVID-19-Virus",
+                                    "vorgangstyp": "Antrag"
+                                },
+                                {
+                                    "id": "285168",
+                                    "titel": "Gesetz zur Einführung einer verpflichtenden Impfberatung für Erwachsene und einer altersbezogenen Impfpflicht ab 50 Jahren unter Vorbehalt gegen das Coronavirus SARS-CoV-2",
+                                    "vorgangstyp": "Gesetzgebung"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q1007353",
+                    "attributes": {
+                        "timeStart": "41.48",
+                        "timeEnd": "63.92",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.1179,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q1007353",
+                    "attributes": {
+                        "timeStart": "197.6",
+                        "timeEnd": "200.72",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.1179,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q1007353",
+                    "attributes": {
+                        "timeStart": "215.16",
+                        "timeEnd": "223.84",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.4139,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q1007353",
+                    "attributes": {
+                        "timeStart": "225.72",
+                        "timeEnd": "228",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.1179,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q1023134",
+                    "attributes": {
+                        "timeStart": "197.6",
+                        "timeEnd": "200.72",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.2984,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q1387991",
+                    "attributes": {
+                        "timeStart": "197.6",
+                        "timeEnd": "200.72",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.1655,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q2207512",
+                    "attributes": {
+                        "timeStart": "215.16",
+                        "timeEnd": "223.84",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.673,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q1387991",
+                    "attributes": {
+                        "timeStart": "215.16",
+                        "timeEnd": "223.84",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.5306,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q1387991",
+                    "attributes": {
+                        "timeStart": "225.72",
+                        "timeEnd": "228",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.1655,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q1826856",
+                    "attributes": {
+                        "timeStart": "197.6",
+                        "timeEnd": "200.72",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.1336,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q1826856",
+                    "attributes": {
+                        "timeStart": "215.16",
+                        "timeEnd": "223.84",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.307,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q2207512",
+                    "attributes": {
+                        "timeStart": "41.48",
+                        "timeEnd": "63.92",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3755,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q2207512",
+                    "attributes": {
+                        "timeStart": "97.2",
+                        "timeEnd": "109.92",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.673,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q2207512",
+                    "attributes": {
+                        "timeStart": "136.6",
+                        "timeEnd": "148.56",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.673,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q2207512",
+                    "attributes": {
+                        "timeStart": "168.36",
+                        "timeEnd": "180.6",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.673,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                },
+                {
+                    "type": "document",
+                    "id": "5948",
+                    "attributes": {
+                        "timeStart": null,
+                        "timeEnd": null,
+                        "context": "proceedingsReference",
+                        "additionalInformation": {
+                            "originID": "259616",
+                            "procedureIDs": [
+                                {
+                                    "id": "285168",
+                                    "titel": "Gesetz zur Einführung einer verpflichtenden Impfberatung für Erwachsene und einer altersbezogenen Impfpflicht ab 50 Jahren unter Vorbehalt gegen das Coronavirus SARS-CoV-2",
+                                    "vorgangstyp": "Gesetzgebung"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "organisation",
+                    "id": "Q2207512",
+                    "attributes": {
+                        "timeStart": "197.6",
+                        "timeEnd": "200.72",
+                        "context": "NER",
+                        "additionalInformation": {
+                            "confidence": 0.3755,
+                            "fragDenStaatID": "",
+                            "abgeordnetenwatchID": ""
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -8,7 +8,13 @@ import urllib.parse
 from datetime import datetime
 
 faction_ids = {
+    "CDU/CSU": "Q1023134",
+    "SPD": "Q2207512",
     "AfD": "Q42575708",
+    "FDP": "Q1387991",
+    "DIE LINKE": "Q1826856",
+    "DIE GRÜNEN": "Q1007353",
+    "fraktionslos": "Q4316268",
 }
 
 
