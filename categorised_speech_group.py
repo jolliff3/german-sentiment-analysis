@@ -15,15 +15,27 @@ class CategorisedSpeechGroup:
         self.faction = faction
 
     def analyse_speeches(self, sentiment_model):
-        self.analysis_results = pd.DataFrame()
-        for categorised_speech in self.categorised_speeches:
-            analysis = self.__analyse_speech(
-                categorised_speech, sentiment_model)
-            analysis["keyword"] = self.keyword
+        all_speech_df = pd.DataFrame()
+        for speech in self.categorised_speeches:
+            # analyse_sentiment sets the speech's sentiment_score and other columns (initiated as None)
+            speech.analyse_sentiment(sentiment_model)
 
-            analysis_dataframe = pd.DataFrame(analysis, index=[0])
-            self.analysis_results = pd.concat(
-                [self.analysis_results, analysis_dataframe])
+            # Now that the sentiment scores have been added to the dataframe, we can get the df
+            speech_df = speech.get_speech_df()
+
+            # We now create one big dataframe with all the speeches so we can analysise them together
+            all_speech_df = pd.concat([all_speech_df, speech_df],
+                                      ignore_index=True)
+
+        # Now we need to filter the dataframe to only get the mainspeaker's sentence results, and group the scores
+        main_speaker_sentences = all_speech_df[all_speech_df['sentence_speaker_status']
+                                               == "main-speaker"]
+
+        # now we need to group by the main speaker's faction, party, agenda item title, and main speaker
+        main_speaker_sentences_grouped = main_speaker_sentences.groupby(
+            ["sentence_speaker_faction", "sentence_speaker_party", "speech_agenda_item_title", "sentence_speaker"]).sum()
+
+        return main_speaker_sentences_grouped
 
     def get_results_grouped_by_faction(self):
         if self.analysis_results is None:

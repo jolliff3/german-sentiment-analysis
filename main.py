@@ -1,4 +1,5 @@
 
+import os
 from germansentiment import SentimentModel
 from categorised_speech_group import CategorisedSpeechGroup
 from speech import Speech
@@ -6,6 +7,7 @@ import requests
 import pandas as pd
 import urllib.parse
 from datetime import datetime
+import matplotlib.pyplot as plt
 
 faction_ids = {
     "CDU/CSU": "Q1023134",
@@ -45,6 +47,10 @@ def get_speeches_by_query(query, limit=None, date_start=None, date_end=None, fac
     speeches = []
 
     current_speech = 0
+    if "data" not in speeches_raw_json:
+        print("No speeches found for query " + query)
+        return speeches
+
     for speech_data in speeches_raw_json["data"]:
         if limit is not None and current_speech >= limit:
             break
@@ -52,14 +58,19 @@ def get_speeches_by_query(query, limit=None, date_start=None, date_end=None, fac
         speech_data_formatted = {}
         speech_data_formatted["data"] = speech_data
 
-        speeches.append(Speech(speech_raw_json=speech_data_formatted))
+        speech = Speech(speech_raw_json=speech_data_formatted)
+        speech.set_keyword(query)
+        speeches.append(speech)
 
     return speeches
 
 
 def main():
-    keywords = ["Ausländer", "Budget", "Covid",
-                "Europäische Union", "Gesundheit"]
+    # keywords = ["Ausländer",
+    #             "Budget", "Covid",
+    #             "Europäische Union", "Gesundheit"]
+
+    keywords = ["Covid"]
 
     speeches_per_keyword = 5
 
@@ -68,61 +79,57 @@ def main():
     date_start = datetime(2022, 1, 1)
     date_end = datetime(2023, 5, 1)
 
-    speech_groups = []
+    # make directory to output all results
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    results_dir = "./results/" + timestamp
+    os.mkdir(results_dir)
 
-    # for faction in faction_ids:
-    #     faction_label = faction
-    #     faction_id = faction_ids[faction]
-    #     for keyword in keywords:
-    #         print("Getting speeches for keyword " +
-    #               keyword + " and faction " + faction_label)
-    #         speeches = get_speeches_by_query(
-    #             keyword, speeches_per_keyword, date_start, date_end, faction_id)
-    #         speech_group = CategorisedSpeechGroup(
-    #             speeches, keyword, faction_label)
-    #         speech_group.analyse_speeches(sentiment_model)
-    #         speech_groups.append(speech_group)
-    speeches = get_speeches_by_query(
-        "Ausländer", 5, date_start, date_end, faction_ids["AfD"])
+    all_speeches = []
+    for faction in faction_ids:
+        faction_label = faction
+        faction_id = faction_ids[faction]
+        for keyword in keywords:
+            print("Getting speeches for keyword " +
+                  keyword + " and faction " + faction_label)
+            speeches = get_speeches_by_query(
+                keyword, speeches_per_keyword, date_start, date_end, faction_id)
+            all_speeches += speeches
 
-    speeches[0].analyse_sentiment(sentiment_model)
-    test_df = speeches[0].get_speech_df()
-    print(test_df)
+    all_speech_summaries = pd.DataFrame()
 
-    test_df.to_csv("test.csv")
+    for speech in all_speeches:
+        speech.analyse_sentiment(sentiment_model)
+        speech_summary = speech.generate_summary()
+        if speech_summary is not None:
+            # Delete speech if it has no sentences, this is caused by their being no main speaker
+            speech.write_speech_df_to_csv(
+                results_dir + "/" + speech.get_id() + ".csv")
+            all_speech_summaries = pd.concat([all_speech_summaries, speech_summary],
+                                             ignore_index=False)
 
-    # auslander_speeches = get_speeches_by_query(
-    #     "Ausländer", 20, date_start, date_end, faction_ids["AfD"])
-    # budget_speeches = get_speeches_by_query(
-    #     "Budget", 20, date_start, date_end, faction_ids["AfD"])
-    # covid_speeches = get_speeches_by_query(
-    #     "Covid", 20, date_start, date_end, faction_ids["AfD"])
-    # europaische_union_speeches = get_speeches_by_query(
-    #     "Europäische Union", 20, date_start, date_end, faction_ids["AfD"])
+    all_speech_summaries.to_csv(results_dir + "/master_summary.csv")
 
-    # auslander_speech_group = CategorisedSpeechGroup(
-    #     auslander_speeches, "Ausländer")
+    # Now create a scatter plot using the postive and negative percent scores, each party should have a different colour with a single dot for each speech
+    unique_factions = all_speech_summaries["main_speaker_faction"].unique()
+    colors = iter([plt.cm.tab20(i) for i in range(20)])
 
-    # budget_speech_group = CategorisedSpeechGroup(
-    #     budget_speeches, "Budget")
+    for unique_faction in unique_factions:
+        faction_speeches = all_speech_summaries[all_speech_summaries["main_speaker_faction"]
+                                                == unique_faction]
+        plt.scatter(x=faction_speeches["speech_positive_percentage"], y=faction_speeches["speech_negative_percentage"],
+                    c=[next(colors)], label=unique_faction)
 
-    # covid_speech_group = CategorisedSpeechGroup(
-    #     covid_speeches, "Covid")
+    # set axes to 0.2 and 0.2
+    plt.xlim(right=0.2)
+    plt.ylim(top=0.2)
 
-    # europaische_union_speech_group = CategorisedSpeechGroup(
-    #     europaische_union_speeches, "Europäische Union")
+    plt.legend()
+    plt.xlabel("Percentage of speech that is positive")
+    plt.ylabel("Percentage of speech that is negative")
 
-    # budget_speech_group.analyse_speeches(sentiment_model)
-    # budget_speech_group.generate_report()
+    plt.savefig(results_dir + "/scatter_plot.png")
 
-    # auslander_speech_group.analyse_speeches(sentiment_model)
-    # auslander_speech_group.generate_report()
-
-    # covid_speech_group.analyse_speeches(sentiment_model)
-    # covid_speech_group.generate_report()
-
-    # europaische_union_speech_group.analyse_speeches(sentiment_model)
-    # europaische_union_speech_group.generate_report()
+    plt.show()
 
 
 if __name__ == "__main__":
