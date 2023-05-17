@@ -58,43 +58,71 @@ def get_speeches_by_query(query, limit=None, date_start=None, date_end=None, fac
 
 
 def main():
+    keywords = ["Ausländer", "Budget", "Covid",
+                "Europäische Union", "Gesundheit"]
+
+    speeches_per_keyword = 5
+
     sentiment_model = SentimentModel()
 
-    date_start = datetime(2021, 1, 1)
-    date_end = datetime(2023, 4, 30)
+    date_start = datetime(2022, 1, 1)
+    date_end = datetime(2023, 5, 1)
 
-    auslander_speeches = get_speeches_by_query(
-        "Ausländer", 20, date_start, date_end, faction_ids["AfD"])
-    budget_speeches = get_speeches_by_query(
-        "Budget", 20, date_start, date_end, faction_ids["AfD"])
-    covid_speeches = get_speeches_by_query(
-        "Covid", 20, date_start, date_end, faction_ids["AfD"])
-    europaische_union_speeches = get_speeches_by_query(
-        "Europäische Union", 20, date_start, date_end, faction_ids["AfD"])
+    speech_groups = []
 
-    auslander_speech_group = CategorisedSpeechGroup(
-        auslander_speeches, "Ausländer")
+    # for faction in faction_ids:
+    #     faction_label = faction
+    #     faction_id = faction_ids[faction]
+    #     for keyword in keywords:
+    #         print("Getting speeches for keyword " +
+    #               keyword + " and faction " + faction_label)
+    #         speeches = get_speeches_by_query(
+    #             keyword, speeches_per_keyword, date_start, date_end, faction_id)
+    #         speech_group = CategorisedSpeechGroup(
+    #             speeches, keyword, faction_label)
+    #         speech_group.analyse_speeches(sentiment_model)
+    #         speech_groups.append(speech_group)
+    speeches = get_speeches_by_query(
+        "Ausländer", 5, date_start, date_end, faction_ids["AfD"])
 
-    budget_speech_group = CategorisedSpeechGroup(
-        budget_speeches, "Budget")
+    speeches[0].analyse_sentiment(sentiment_model)
+    test_df = speeches[0].get_speech_df()
+    print(test_df)
 
-    covid_speech_group = CategorisedSpeechGroup(
-        covid_speeches, "Covid")
+    test_df.to_csv("test.csv")
 
-    europaische_union_speech_group = CategorisedSpeechGroup(
-        europaische_union_speeches, "Europäische Union")
+    # auslander_speeches = get_speeches_by_query(
+    #     "Ausländer", 20, date_start, date_end, faction_ids["AfD"])
+    # budget_speeches = get_speeches_by_query(
+    #     "Budget", 20, date_start, date_end, faction_ids["AfD"])
+    # covid_speeches = get_speeches_by_query(
+    #     "Covid", 20, date_start, date_end, faction_ids["AfD"])
+    # europaische_union_speeches = get_speeches_by_query(
+    #     "Europäische Union", 20, date_start, date_end, faction_ids["AfD"])
 
-    budget_speech_group.analyse_speeches(sentiment_model)
-    budget_speech_group.generate_report()
+    # auslander_speech_group = CategorisedSpeechGroup(
+    #     auslander_speeches, "Ausländer")
 
-    auslander_speech_group.analyse_speeches(sentiment_model)
-    auslander_speech_group.generate_report()
+    # budget_speech_group = CategorisedSpeechGroup(
+    #     budget_speeches, "Budget")
 
-    covid_speech_group.analyse_speeches(sentiment_model)
-    covid_speech_group.generate_report()
+    # covid_speech_group = CategorisedSpeechGroup(
+    #     covid_speeches, "Covid")
 
-    europaische_union_speech_group.analyse_speeches(sentiment_model)
-    europaische_union_speech_group.generate_report()
+    # europaische_union_speech_group = CategorisedSpeechGroup(
+    #     europaische_union_speeches, "Europäische Union")
+
+    # budget_speech_group.analyse_speeches(sentiment_model)
+    # budget_speech_group.generate_report()
+
+    # auslander_speech_group.analyse_speeches(sentiment_model)
+    # auslander_speech_group.generate_report()
+
+    # covid_speech_group.analyse_speeches(sentiment_model)
+    # covid_speech_group.generate_report()
+
+    # europaische_union_speech_group.analyse_speeches(sentiment_model)
+    # europaische_union_speech_group.generate_report()
 
 
 if __name__ == "__main__":

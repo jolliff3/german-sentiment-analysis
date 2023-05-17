@@ -1,5 +1,6 @@
 import requests
 import json
+import pandas as pd
 
 
 class Speech:
@@ -13,6 +14,7 @@ class Speech:
 
     sentiment_model = None
     api_url = None
+    speech_df = None
 
     def __init__(self, url=None, speech_raw_json=None):
         if url is None and speech_raw_json is None:
@@ -25,8 +27,7 @@ class Speech:
         else:
             self.__init_from_speech_raw_json(speech_raw_json)
 
-        self.sentences = self.__parse_sentences()
-        self.speech_metadata = self.__parse_speech_metadata()
+        self.speech_df = self.__parse_speech()
 
     def __init_from_url(self, url):
         self.api_url = url
@@ -36,130 +37,131 @@ class Speech:
         self.speech_raw_json = speech_raw_json
         self.api_url = "unknown"
 
-    def __parse_speech_metadata(self):
-        speech_metadata = {}
-        speech_metadata["api_url"] = self.api_url
-        speech_metadata["duration"] = self.speech_raw_json["data"]["attributes"]["duration"]
-        speech_metadata["date_start"] = self.speech_raw_json["data"]["attributes"]["dateStart"]
-        speech_metadata["date_end"] = self.speech_raw_json["data"]["attributes"]["dateEnd"]
-        speech_metadata["agenda_item_official_title"] = self.speech_raw_json["data"][
-            "relationships"]["agendaItem"]["data"]["attributes"]["officialTitle"]
-        speech_metadata["agenda_item_title"] = self.speech_raw_json["data"]["relationships"]["agendaItem"]["data"]["attributes"]["title"]
-        # To find the main speaker, we itterate through the sentences until we find the first one with the speaker status "main-speaker"
-        for sentence in self.sentences:
-            if sentence["speaker_status"] == "main-speaker":
-                if sentence["speaker"] is None:
-                    speech_metadata["main_speaker"] = "unknown"
-                else:
-                    speech_metadata["main_speaker"] = sentence["speaker"]
-                break
+    def __parse_speech(self):
+        speech_df = pd.DataFrame()
 
-        if "main_speaker" not in speech_metadata:
-            speech_metadata["main_speaker"] = "unknown"
-
-        # Find the person data using the speech_metadata["main_speaker"]
-        if speech_metadata["main_speaker"] == "unknown":
-            speech_metadata["main_speaker_party"] = "unknown"
-            speech_metadata["main_speaker_faction"] = "unknown"
-        else:
-            for person in self.speech_raw_json["data"]["relationships"]["people"]["data"]:
-                if person["attributes"]["label"] == speech_metadata["main_speaker"]:
-                    speech_metadata["main_speaker_party"] = person["attributes"]["party"]["label"]
-                    speech_metadata["main_speaker_faction"] = person["attributes"]["faction"]["label"]
-                    break
-                elif speech_metadata["main_speaker"] in person["attributes"]["labelAlternative"]:
-                    speech_metadata["main_speaker_party"] = person["attributes"]["party"]["label"]
-                    speech_metadata["main_speaker_faction"] = person["attributes"]["faction"]["label"]
-                    break
-
-        if "main_speaker_party" not in speech_metadata:
-            speech_metadata["main_speaker_party"] = "unknown"
-
-        if "main_speaker_faction" not in speech_metadata:
-            speech_metadata["main_speaker_faction"] = "unknown"
-
-        return speech_metadata
-
-    def __parse_sentences(self):
-        speech_excerpts_with_metadata = self.speech_raw_json[
+        raw_speech_excerpts = self.speech_raw_json[
             "data"]["attributes"]["textContents"][0]["textBody"]
 
-        speech_sentences_with_timestamps = []
-
-        for speech_excerpt_with_metadata in speech_excerpts_with_metadata:
-            speech_excerpt_sentences = speech_excerpt_with_metadata["sentences"]
+        for raw_speech_excerpt in raw_speech_excerpts:
+            speech_excerpt_sentences = raw_speech_excerpt["sentences"]
             for speech_excerpt_sentence in speech_excerpt_sentences:
-                speech_excerpt_sentence["type"] = speech_excerpt_with_metadata["type"]
+                # The id of the speech in the database
+                speech_id = raw_speech_excerpt["speech_id"]
 
+                # The total speech duration, including comments and other non speech sentences
+                speech_duration = self.speech_raw_json["data"]["attributes"]["duration"]
+
+                # The start date/time of the speech. This is a string
+                speech_date_start = self.speech_raw_json["data"]["attributes"]["dateStart"]
+
+                # The end date/time of the speech. This is a string
+                speech_date_end = self.speech_raw_json["data"]["attributes"]["dateEnd"]
+
+                # Speech agenda item title
+                speech_agenda_item_title = self.speech_raw_json["data"][
+                    "relationships"]["agendaItem"]["data"]["attributes"]["officialTitle"]
+
+                # The speaker of the sentence note: this can be null
+                sentence_speaker = raw_speech_excerpt["speaker"]
+
+                # The status of the speaker, e.g. "president" or "main-speaker", note: this can be null
+                sentence_speaker_status = raw_speech_excerpt["speakerstatus"]
+
+                # The type of the sentence, e.g. "speech" or "comment"
+                sentence_type = raw_speech_excerpt["type"]
+
+                # The text of the sentence
+                sentence_text = speech_excerpt_sentence["text"]
+
+                # sentence start time in seconds
                 if "timeStart" not in speech_excerpt_sentence:
-                    speech_excerpt_sentence["timeStart"] = 0
-                if "timeEnd" not in speech_excerpt_sentence:
-                    speech_excerpt_sentence["timeEnd"] = 0
-                speech_excerpt_sentence["duration"] = self.__calculate_sentence_length_seconds(
-                    speech_excerpt_sentence)
+                    sentence_time_start = 0
+                else:
+                    sentence_time_start = float(
+                        speech_excerpt_sentence["timeStart"])
 
-                # The name of the speaker, e.g. "Martin Sichert"
-                speech_excerpt_sentence["speaker"] = speech_excerpt_with_metadata["speaker"]
-                # e.g. "president" or "main-speaker", "null" for general comments
-                speech_excerpt_sentence["speaker_status"] = speech_excerpt_with_metadata["speakerstatus"]
+                # sentence end time in seconds
+                if "timeEnd" not in speech_excerpt_sentence:
+                    sentence_time_end = 0
+                else:
+                    sentence_time_end = float(
+                        speech_excerpt_sentence["timeEnd"])
+
+                # the sentence duration in seconds (end - start)
+                sentence_duration = sentence_time_end - sentence_time_start
+
+                for person in self.speech_raw_json["data"]["relationships"]["people"]["data"]:
+                    if sentence_speaker == None:
+                        sentence_speaker_party = None
+                        sentence_speaker_faction = None
+                        break
+                    elif person["attributes"]["label"] == sentence_speaker:
+                        sentence_speaker_party = person["attributes"]["party"]["label"]
+                        sentence_speaker_faction = person["attributes"]["faction"]["label"]
+                        break
+                    elif sentence_speaker in person["attributes"]["labelAlternative"]:
+                        sentence_speaker_party = person["attributes"]["party"]["label"]
+                        sentence_speaker_faction = person["attributes"]["faction"]["label"]
+                        break
+                    else:
+                        sentence_speaker_party = None
+                        sentence_speaker_faction = None
 
                 # These are the sentiment scores initialised as None
-                speech_excerpt_sentence["sentiment_score"] = None
-                speech_excerpt_sentence["sentiment_positive_weight"] = None
-                speech_excerpt_sentence["sentiment_negative_weight"] = None
-                speech_excerpt_sentence["sentiment_neutral_weight"] = None
+                sentence_sentiment_score = None
+                sentence_sentiment_positive_weight = None
+                sentence_sentiment_negative_weight = None
+                sentence_sentiment_neutral_weight = None
 
-            speech_sentences_with_timestamps.extend(
-                speech_excerpt_sentences)
+                # This is the dictionary that will be appended to the dataframe
+                speech_excerpt_sentence_dict = {
+                    "speech_id": speech_id,
+                    "speech_duration": speech_duration,
+                    "speech_date_start": speech_date_start,
+                    "speech_date_end": speech_date_end,
+                    "speech_agenda_item_title": speech_agenda_item_title,
+                    "sentence_speaker": sentence_speaker,
+                    "sentence_speaker_status": sentence_speaker_status,
+                    "sentence_speaker_party": sentence_speaker_party,
+                    "sentence_speaker_faction": sentence_speaker_faction,
+                    "sentence_type": sentence_type,
+                    "sentence_text": sentence_text,
+                    "sentence_time_start": sentence_time_start,
+                    "sentence_time_end": sentence_time_end,
+                    "sentence_duration": sentence_duration,
+                    "sentence_sentiment_score": sentence_sentiment_score,
+                    "sentence_sentiment_positive_weight": sentence_sentiment_positive_weight,
+                    "sentence_sentiment_negative_weight": sentence_sentiment_negative_weight,
+                    "sentence_sentiment_neutral_weight": sentence_sentiment_neutral_weight
+                }
 
-        return speech_sentences_with_timestamps
+                sentence_df = pd.DataFrame(
+                    speech_excerpt_sentence_dict, index=[0])
+
+                speech_df = pd.concat([speech_df, sentence_df],
+                                      ignore_index=True)
+
+        return speech_df
 
     def analyse_sentiment(self, sentiment_model):
-        sentences_text = [sentence["text"] for sentence in self.sentences]
+        sentences_text_numpy_array = self.speech_df["sentence_text"].to_numpy()
+        sentences_text_array = sentences_text_numpy_array.tolist()
+
         result = sentiment_model.predict_sentiment(
-            sentences_text, True)
+            sentences_text_array, True)
+
         sentiment_scores = result[0]
         sentiment_weights = result[1]
 
         for i, sentiment_score in enumerate(sentiment_scores):
-            self.sentences[i]["sentiment_score"] = sentiment_score
+            self.speech_df["sentence_sentiment_score"][i] = sentiment_score
             # Positive is the 0th element, the weighting is always the 1st
-            self.sentences[i]["sentiment_positive_weight"] = sentiment_weights[i][0][1]
+            self.speech_df["sentence_sentiment_positive_weight"][i] = sentiment_weights[i][0][1]
             # Negative is the 1st element, the weighting is always the 1st
-            self.sentences[i]["sentiment_negative_weight"] = sentiment_weights[i][1][1]
+            self.speech_df["sentence_sentiment_negative_weight"][i] = sentiment_weights[i][1][1]
             # Neutral is the 2nd element, the weighting is always the 1st
-            self.sentences[i]["sentiment_neutral_weight"] = sentiment_weights[i][2][1]
+            self.speech_df["sentence_sentiment_neutral_weight"][i] = sentiment_weights[i][2][1]
 
-    def __calculate_sentence_length_seconds(self, sentence):
-        # The timestamps are in seconds with 3 decimal places and are strings
-        try:
-            timeEnd = float(sentence["timeEnd"])
-            timeStart = float(sentence["timeStart"])
-        except:
-            print("invalid sentence: " + json.dumps(sentence))
-            raise ValueError("Invalid sentence")
-
-        # Should return to 3dp
-        return timeEnd - timeStart
-
-    def get_sentences_by_type(self, type):
-        if type not in ["speech", "comment"]:
-            raise ValueError("Invalid type")
-        sentences_filtered_by_type = []
-        for sentence in self.sentences:
-            if sentence["type"] == type:
-                sentences_filtered_by_type.append(sentence)
-        return sentences_filtered_by_type
-
-    def get_sentences_by_speaker_status(self, speaker_status):
-        if speaker_status not in ["president", "main-speaker"]:
-            raise ValueError("Invalid speaker status")
-        sentences_filtered_by_speaker_status = []
-        for sentence in self.sentences:
-            if sentence["speaker_status"] == speaker_status:
-                sentences_filtered_by_speaker_status.append(sentence)
-
-        return sentences_filtered_by_speaker_status
-
-    def get_speech_metadata(self):
-        return self.speech_metadata
+    def get_speech_df(self):
+        return self.speech_df

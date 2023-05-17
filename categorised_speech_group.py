@@ -5,19 +5,21 @@ from datetime import datetime
 
 class CategorisedSpeechGroup:
     categorised_speeches = None
-    category_label = None
+    keyword = None
+    faction = None
     analysis_results = None
 
-    def __init__(self, categorised_speeches, category_label):
+    def __init__(self, categorised_speeches, keyword, faction="Unknown"):
         self.categorised_speeches = categorised_speeches
-        self.category_label = category_label
+        self.keyword = keyword
+        self.faction = faction
 
     def analyse_speeches(self, sentiment_model):
         self.analysis_results = pd.DataFrame()
         for categorised_speech in self.categorised_speeches:
             analysis = self.__analyse_speech(
                 categorised_speech, sentiment_model)
-            analysis["category"] = self.category_label
+            analysis["keyword"] = self.keyword
 
             analysis_dataframe = pd.DataFrame(analysis, index=[0])
             self.analysis_results = pd.concat(
@@ -46,9 +48,9 @@ class CategorisedSpeechGroup:
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
         grouped_by_party = self.get_results_grouped_by_faction()
-        grouped_by_party["category"] = self.category_label
+        grouped_by_party["keyword"] = self.keyword
         grouped_by_party.to_csv(
-            "results/" + self.category_label + "_grouped_by_faction"+timestamp+".csv")
+            "results/" + self.keyword + "_grouped_by_faction"+timestamp+".csv")
 
     def __analyse_speech(self, speech: Speech, sentiment_model):
         speech.analyse_sentiment(sentiment_model)
