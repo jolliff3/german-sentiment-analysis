@@ -70,7 +70,7 @@ def main():
     #             "Budget", "Covid",
     #             "Europäische Union", "Gesundheit"]
 
-    keywords = ["Covid"]
+    keywords = ["Europäische Union"]
 
     speeches_per_keyword = 5
 
